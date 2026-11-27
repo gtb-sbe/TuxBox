@@ -1,0 +1,715 @@
+shader	root	arm	result	class	table	slot	reg	root_range	user_data	psv
+0002a729	c4e00378	reflected	raw BVH node intersection requires traversal translation	0x302	0	174	6	SRV:t147,space0	6	cbv:space0
+0002a729	c4e00378	reflected	raw BVH node intersection requires traversal translation	0x302	0	178	5	SRV:t338,space0	5	cbv:space0
+0002a729	c4e00378	reflected	raw BVH node intersection requires traversal translation	0x300	1	3	353	UAV:u21,space1	353	srv-raw:space1
+010eb57b	7e366593	reflected	ok	0x302	1	5	0	SRV:t140,space1	0	cbv:space1
+013174cc	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	16	345	UAV:u27,space1	345	srv-typed:space1
+013174cc	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	17	339	UAV:u30,space1	339	srv-typed:space1
+013174cc	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	18	352	UAV:u26,space1	352	srv-typed:space1
+013174cc	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	19	340	UAV:u25,space1	340	srv-typed:space1
+013174cc	2cde983e	reflected	wave reduction may execute in divergent control flow	0x303	1	23	27	CBV:b0,space1	27	uav-typed:space1
+02ff7cf0	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x303	0	60	31	SRV:t47,space0	31	uav-typed:space0
+02ff7cf0	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	66	5	SRV:t289,space0	5	cbv:space0
+02ff7cf0	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	70	33	SRV:t293,space0	33	cbv:space0
+02ff7cf0	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x300	1	3	355	UAV:u21,space1	355	srv-raw:space1
+03516d13	44022573	reflected	wave reduction may execute in divergent control flow	0x300	1	3	93	UAV:u18,space1	93	srv-struct:space1
+03516d13	44022573	reflected	wave reduction may execute in divergent control flow	0x300	1	4	102	UAV:u24,space1	102	srv-struct:space1
+03516d13	44022573	reflected	wave reduction may execute in divergent control flow	0x300	1	5	105	UAV:u23,space1	105	srv-typed:space1
+03516d13	44022573	reflected	wave reduction may execute in divergent control flow	0x300	1	6	104	UAV:u25,space1	104	srv-typed:space1
+03516d13	44022573	reflected	wave reduction may execute in divergent control flow	0x300	1	7	103	UAV:u22,space1	103	srv-typed:space1
+03516d13	44022573	reflected	wave reduction may execute in divergent control flow	0x303	1	9	18	CBV:b0,space1	18	uav-struct:space1
+03516d13	44022573	reflected	wave reduction may execute in divergent control flow	0x303	1	10	6	CBV:b27,space1	6	uav-struct:space1
+0454f394	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	16	333	UAV:u27,space1	333	srv-typed:space1
+0454f394	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	17	346	UAV:u30,space1	346	srv-typed:space1
+0454f394	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	18	334	UAV:u26,space1	334	srv-typed:space1
+0454f394	2cde983e	reflected	wave reduction may execute in divergent control flow	0x303	1	22	27	CBV:b18,space1	27	uav-typed:space1
+0454f394	2cde983e	reflected	wave reduction may execute in divergent control flow	0x303	1	24	22	CBV:b29,space1	22	uav-typed:space1
+04fb3cc5	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	6	44	SRV:t333,space1	44	uav-typed:space1
+04fb3cc5	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	7	46	SRV:t339,space1	46	uav-typed:space1
+04fb3cc5	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	8	43	SRV:t345,space1	43	uav-typed:space1
+04fb3cc5	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	9	45	SRV:t342,space1	45	uav-typed:space1
+04fb3cc5	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	10	47	SRV:t20,space1	47	uav-typed:space1
+04fb3cc5	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	11	63	SRV:t337,space1	63	uav-typed:space1
+04fb3cc5	2cde983e	last	raw BVH node intersection requires traversal translation	0x302	1	13	3	SRV:t335,space1	3	cbv:space1
+0683b22a	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	0	129	17	SRV:t114,space0	17	cbv:space0
+0683b22a	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	0	132	12	SRV:t88,space0	12	cbv:space0
+0683b22a	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	11	42	SRV:t337,space1	42	uav-typed:space1
+0683b22a	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	12	10	SRV:t341,space1	10	uav-typed:space1
+0683b22a	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	13	50	SRV:t335,space1	50	uav-struct:space1
+0683b22a	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	14	43	SRV:t348,space1	43	uav-typed:space1
+0683b22a	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	15	40	SRV:t336,space1	40	uav-typed:space1
+0683b22a	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	1	21	0	UAV:u20,space1	0	cbv:space1
+07e0061f	c4e00378	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	0	76	14	SRV:t298,space0	14	cbv:space0
+07e0061f	c4e00378	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	0	77	29	SRV:t299,space0	29	cbv:space0
+07e0061f	c4e00378	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	0	78	16	SRV:t44,space0	16	cbv:space0
+07e0061f	c4e00378	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	0	79	27	SRV:t300,space0	27	cbv:space0
+07e0061f	c4e00378	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x300	1	3	422	UAV:u21,space1	422	srv-typed:space1
+081be2a8	7e366593	last	ok	0x302	1	3	0	SRV:t144,space1	0	cbv:space1
+0a927142	87c5d2f9	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	0	76	14	SRV:t282,space0	14	cbv:space0
+0a927142	87c5d2f9	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	0	77	29	SRV:t214,space0	29	cbv:space0
+0a927142	87c5d2f9	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	0	78	16	SRV:t84,space0	16	cbv:space0
+0a927142	87c5d2f9	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	0	79	27	SRV:t176,space0	27	cbv:space0
+0a927142	87c5d2f9	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x300	1	0	7	UAV:u31,space1	7	srv-struct:space1
+0a927142	87c5d2f9	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x300	1	2	430	UAV:u50,space1	430	srv-typed:space1
+0accbcc7	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	174	6	SRV:t147,space0	6	cbv:space0
+0accbcc7	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	178	5	SRV:t338,space0	5	cbv:space0
+0accbcc7	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	182	29	SRV:t340,space0	29	cbv:space0
+0accbcc7	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x300	1	3	353	UAV:u21,space1	353	srv-raw:space1
+0b8e55dc	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	66	5	SRV:t289,space0	5	cbv:space0
+0b8e55dc	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	70	33	SRV:t293,space0	33	cbv:space0
+0b8e55dc	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x300	1	3	16	UAV:u21,space1	16	srv-struct:space1
+0d0cb96d	7e366593	last	mubuf : atomic on a non-UAV buffer	0x303	0	119	7	SRV:t112,space0	7	uav-typed:space0
+0d0cb96d	7e366593	last	mubuf : atomic on a non-UAV buffer	0x303	0	120	6	SRV:t379,space0	6	uav-typed:space0
+0d0cb96d	7e366593	last	mubuf : atomic on a non-UAV buffer	0x302	1	3	0	SRV:t144,space1	0	cbv:space1
+0d0d76a2	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	16	349	UAV:u27,space1	349	srv-typed:space1
+0d0d76a2	2cde983e	reflected	wave reduction may execute in divergent control flow	0x303	1	22	27	CBV:b18,space1	27	uav-typed:space1
+0f01e5e5	c4e00378	reflected	wave reduction may execute in divergent control flow	0x303	0	108	10	SRV:t150,space0	10	uav-struct:space0
+0f01e5e5	c4e00378	reflected	wave reduction may execute in divergent control flow	0x303	1	2	29	SRV:t235,space1	29	uav-struct:space1
+10186a17	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	0	129	17	SRV:t114,space0	17	cbv:space0
+10186a17	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	0	132	12	SRV:t88,space0	12	cbv:space0
+10186a17	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	11	42	SRV:t337,space1	42	uav-typed:space1
+10186a17	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	12	10	SRV:t341,space1	10	uav-typed:space1
+10186a17	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	13	50	SRV:t335,space1	50	uav-struct:space1
+10186a17	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	14	43	SRV:t348,space1	43	uav-typed:space1
+10186a17	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	15	40	SRV:t336,space1	40	uav-typed:space1
+10186a17	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	1	21	0	UAV:u20,space1	0	cbv:space1
+110d93b6	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	16	333	UAV:u27,space1	333	srv-typed:space1
+110d93b6	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	17	346	UAV:u30,space1	346	srv-typed:space1
+110d93b6	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	18	334	UAV:u26,space1	334	srv-typed:space1
+110d93b6	2cde983e	reflected	wave reduction may execute in divergent control flow	0x303	1	24	22	CBV:b29,space1	22	uav-typed:space1
+1288b197	7e366593	reflected	ok	0x302	1	5	0	SRV:t140,space1	0	cbv:space1
+13e3ae43	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	16	345	UAV:u27,space1	345	srv-typed:space1
+13e3ae43	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	17	339	UAV:u30,space1	339	srv-typed:space1
+13e3ae43	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	18	352	UAV:u26,space1	352	srv-typed:space1
+13e3ae43	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	19	340	UAV:u25,space1	340	srv-typed:space1
+177395b1	44022573	reflected	wave reduction may execute in divergent control flow	0x300	1	3	93	UAV:u18,space1	93	srv-struct:space1
+177395b1	44022573	reflected	wave reduction may execute in divergent control flow	0x300	1	4	102	UAV:u24,space1	102	srv-struct:space1
+177395b1	44022573	reflected	wave reduction may execute in divergent control flow	0x300	1	5	105	UAV:u23,space1	105	srv-typed:space1
+177395b1	44022573	reflected	wave reduction may execute in divergent control flow	0x300	1	6	104	UAV:u25,space1	104	srv-typed:space1
+177395b1	44022573	reflected	wave reduction may execute in divergent control flow	0x300	1	7	103	UAV:u22,space1	103	srv-typed:space1
+177395b1	44022573	reflected	wave reduction may execute in divergent control flow	0x303	1	9	18	CBV:b0,space1	18	uav-struct:space1
+177395b1	44022573	reflected	wave reduction may execute in divergent control flow	0x303	1	10	6	CBV:b27,space1	6	uav-struct:space1
+17e1f58e	2cde983e	reflected	ok	0x300	1	16	326	UAV:u27,space1	326	srv-typed:space1
+17e1f58e	2cde983e	reflected	ok	0x303	1	22	22	CBV:b18,space1	22	uav-typed:space1
+19283d59	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	16	345	UAV:u27,space1	345	srv-typed:space1
+19283d59	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	17	339	UAV:u30,space1	339	srv-typed:space1
+19283d59	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	18	352	UAV:u26,space1	352	srv-typed:space1
+19283d59	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	19	340	UAV:u25,space1	340	srv-typed:space1
+1a703579	c4e00378	reflected	backward permute with scalar branches needs verified convergent control flow	0x302	0	174	6	SRV:t147,space0	6	cbv:space0
+1a703579	c4e00378	reflected	backward permute with scalar branches needs verified convergent control flow	0x302	0	178	5	SRV:t338,space0	5	cbv:space0
+1a703579	c4e00378	reflected	backward permute with scalar branches needs verified convergent control flow	0x300	1	3	72	UAV:u21,space1	72	srv-struct:space1
+1adddb30	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	16	345	UAV:u27,space1	345	srv-typed:space1
+1adddb30	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	17	339	UAV:u30,space1	339	srv-typed:space1
+1adddb30	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	18	352	UAV:u26,space1	352	srv-typed:space1
+1adddb30	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	19	340	UAV:u25,space1	340	srv-typed:space1
+1b1f74ad	b4b9b343	reflected	mixed access widths on a raster image	0x303	1	0	10	SRV:t14,space1	10	uav-typed:space1
+1b1f74ad	b4b9b343	reflected	mixed access widths on a raster image	0x302	1	1	15	SRV:t366,space1	15	cbv:space1
+1b1f74ad	b4b9b343	reflected	mixed access widths on a raster image	0x302	1	2	0	UAV:u32,space1	0	cbv:space1
+1b72db4e	7e366593	reflected	ok	0x302	1	4	0	SRV:t77,space1	0	cbv:space1
+1b98915b	2cde983e	reflected	ok	0x300	1	16	326	UAV:u27,space1	326	srv-typed:space1
+1b98915b	2cde983e	reflected	ok	0x303	1	22	22	CBV:b18,space1	22	uav-typed:space1
+1bf1b0a8	44022573	reflected	compute swizzle inside a loop	0x300	1	3	20	UAV:u18,space1	20	srv-struct:space1
+1bf1b0a8	44022573	reflected	compute swizzle inside a loop	0x300	1	4	142	UAV:u24,space1	142	srv-typed:space1
+1bf1b0a8	44022573	reflected	compute swizzle inside a loop	0x302	1	8	26	UAV:u21,space1	26	cbv:space1
+1c15e181	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	174	6	SRV:t147,space0	6	cbv:space0
+1c15e181	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	178	5	SRV:t338,space0	5	cbv:space0
+1c15e181	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	182	29	SRV:t340,space0	29	cbv:space0
+1c15e181	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x300	1	3	353	UAV:u21,space1	353	srv-raw:space1
+1e4ba57c	7bcf49ce	reflected	compute swizzle inside a loop	0x303	0	33	6	SRV:t71,space0	6	uav-struct:space0
+21c45d8d	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	16	336	UAV:u27,space1	336	srv-typed:space1
+21c45d8d	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	17	349	UAV:u30,space1	349	srv-typed:space1
+21c45d8d	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	18	337	UAV:u26,space1	337	srv-typed:space1
+21c45d8d	2cde983e	reflected	wave reduction may execute in divergent control flow	0x303	1	24	22	CBV:b29,space1	22	uav-typed:space1
+228725fe	030389c6	reflected	unverified EXEC election : lane is not compared for equality	0x303	0	60	17	SRV:t47,space0	17	uav-typed:space0
+228725fe	030389c6	reflected	unverified EXEC election : lane is not compared for equality	0x303	0	61	30	SRV:t23,space0	30	uav-raw:space0
+228725fe	030389c6	reflected	unverified EXEC election : lane is not compared for equality	0x303	0	63	31	SRV:t55,space0	31	uav-typed:space0
+228725fe	030389c6	reflected	unverified EXEC election : lane is not compared for equality	0x302	0	70	28	SRV:t293,space0	28	cbv:space0
+228725fe	030389c6	reflected	unverified EXEC election : lane is not compared for equality	0x303	1	1	39	SRV:t240,space1	39	uav-struct:space1
+228725fe	030389c6	reflected	unverified EXEC election : lane is not compared for equality	0x303	1	2	43	SRV:t236,space1	43	uav-struct:space1
+228725fe	030389c6	reflected	unverified EXEC election : lane is not compared for equality	0x302	1	8	18	UAV:u26,space1	18	cbv:space1
+22c58c77	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	66	5	SRV:t289,space0	5	cbv:space0
+22c58c77	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	70	33	SRV:t293,space0	33	cbv:space0
+22c58c77	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x300	1	3	16	UAV:u21,space1	16	srv-struct:space1
+232aa0c0	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x303	0	60	31	SRV:t47,space0	31	uav-typed:space0
+232aa0c0	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	66	5	SRV:t289,space0	5	cbv:space0
+232aa0c0	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	70	33	SRV:t293,space0	33	cbv:space0
+23f4e85c	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	16	336	UAV:u27,space1	336	srv-typed:space1
+23f4e85c	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	17	349	UAV:u30,space1	349	srv-typed:space1
+23f4e85c	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	18	337	UAV:u26,space1	337	srv-typed:space1
+23f4e85c	2cde983e	reflected	wave reduction may execute in divergent control flow	0x303	1	22	27	CBV:b18,space1	27	uav-typed:space1
+23f4e85c	2cde983e	reflected	wave reduction may execute in divergent control flow	0x303	1	24	22	CBV:b29,space1	22	uav-typed:space1
+24c3f871	030389c6	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	0	15	SRV:t243,space1	15	uav-raw:space1
+24c3f871	030389c6	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	1	18	SRV:t240,space1	18	uav-struct:space1
+24c3f871	030389c6	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	2	17	SRV:t236,space1	17	uav-struct:space1
+24c3f871	030389c6	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	1	3	17	UAV:u27,space1	17	cbv:space1
+255ca6d7	87c5d2f9	reflected	unsupported encoding	0x300	1	0	71	UAV:u31,space1	71	srv-struct:space1
+255ca6d7	87c5d2f9	reflected	unsupported encoding	0x300	1	1	72	UAV:u51,space1	72	srv-struct:space1
+255ca6d7	87c5d2f9	reflected	unsupported encoding	0x300	1	2	73	UAV:u50,space1	73	srv-struct:space1
+2580c6c3	7e366593	reflected	mubuf : atomic on a non-UAV buffer	0x303	0	119	7	SRV:t112,space0	7	uav-typed:space0
+2580c6c3	7e366593	reflected	mubuf : atomic on a non-UAV buffer	0x303	0	120	6	SRV:t379,space0	6	uav-typed:space0
+2580c6c3	7e366593	reflected	mubuf : atomic on a non-UAV buffer	0x302	1	4	0	SRV:t77,space1	0	cbv:space1
+26537c13	87c5d2f9	reflected	unsupported encoding	0x300	1	0	71	UAV:u31,space1	71	srv-struct:space1
+26537c13	87c5d2f9	reflected	unsupported encoding	0x300	1	1	72	UAV:u51,space1	72	srv-struct:space1
+26537c13	87c5d2f9	reflected	unsupported encoding	0x300	1	2	73	UAV:u50,space1	73	srv-struct:space1
+280e6946	7e366593	reflected	ok	0x302	1	4	0	SRV:t77,space1	0	cbv:space1
+2aeb7376	7e366593	reflected	ok	0x302	1	4	0	SRV:t77,space1	0	cbv:space1
+2d1a3fda	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x303	0	60	31	SRV:t47,space0	31	uav-typed:space0
+2d1a3fda	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	66	5	SRV:t289,space0	5	cbv:space0
+2d1a3fda	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	70	33	SRV:t293,space0	33	cbv:space0
+2d1a3fda	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x300	1	3	355	UAV:u21,space1	355	srv-raw:space1
+310219f6	462cddf0	reflected	wave reduction after an early exit	0x303	1	1	43	SRV:t355,space1	43	uav-typed:space1
+310219f6	462cddf0	reflected	wave reduction after an early exit	0x303	1	2	52	SRV:t16,space1	52	uav-typed:space1
+310219f6	462cddf0	reflected	wave reduction after an early exit	0x303	1	3	62	SRV:t331,space1	62	uav-typed:space1
+310219f6	462cddf0	reflected	wave reduction after an early exit	0x302	1	4	3	SRV:t374,space1	3	cbv:space1
+31499244	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x303	0	60	31	SRV:t47,space0	31	uav-typed:space0
+31499244	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	66	5	SRV:t289,space0	5	cbv:space0
+31499244	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	70	33	SRV:t293,space0	33	cbv:space0
+31499244	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x300	1	3	355	UAV:u21,space1	355	srv-raw:space1
+32d9d987	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	0	129	17	SRV:t114,space0	17	cbv:space0
+32d9d987	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	0	132	12	SRV:t88,space0	12	cbv:space0
+32d9d987	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	11	42	SRV:t337,space1	42	uav-typed:space1
+32d9d987	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	12	10	SRV:t341,space1	10	uav-typed:space1
+32d9d987	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	13	50	SRV:t335,space1	50	uav-struct:space1
+32d9d987	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	14	43	SRV:t348,space1	43	uav-typed:space1
+32d9d987	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	15	40	SRV:t336,space1	40	uav-typed:space1
+32d9d987	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	1	21	0	UAV:u20,space1	0	cbv:space1
+35af8e6d	030389c6	reflected	translated HLSL of N MiB exceeds the N MiB compiler budget	0x302	0	122	6	SRV:t212,space0	6	cbv:space0
+35af8e6d	030389c6	reflected	translated HLSL of N MiB exceeds the N MiB compiler budget	0x302	0	123	11	SRV:t35,space0	11	cbv:space0
+35af8e6d	030389c6	reflected	translated HLSL of N MiB exceeds the N MiB compiler budget	0x300	1	3	367	UAV:u27,space1	367	srv-typed:space1
+35af8e6d	030389c6	reflected	translated HLSL of N MiB exceeds the N MiB compiler budget	0x300	1	4	365	UAV:u25,space1	365	srv-typed:space1
+35af8e6d	030389c6	reflected	translated HLSL of N MiB exceeds the N MiB compiler budget	0x302	1	7	0	UAV:u28,space1	0	cbv:space1
+35af8e6d	030389c6	reflected	translated HLSL of N MiB exceeds the N MiB compiler budget	0x302	1	8	3	UAV:u26,space1	3	cbv:space1
+361ac2f8	7e366593	reflected	ok	0x302	1	4	0	SRV:t77,space1	0	cbv:space1
+36eb6522	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	0	129	17	SRV:t114,space0	17	cbv:space0
+36eb6522	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	0	132	12	SRV:t88,space0	12	cbv:space0
+36eb6522	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	11	42	SRV:t337,space1	42	uav-typed:space1
+36eb6522	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	12	10	SRV:t341,space1	10	uav-typed:space1
+36eb6522	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	13	50	SRV:t335,space1	50	uav-struct:space1
+36eb6522	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	14	43	SRV:t348,space1	43	uav-typed:space1
+36eb6522	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	15	40	SRV:t336,space1	40	uav-typed:space1
+36eb6522	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	1	21	0	UAV:u20,space1	0	cbv:space1
+37a15f74	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	16	345	UAV:u27,space1	345	srv-typed:space1
+37a15f74	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	17	339	UAV:u30,space1	339	srv-typed:space1
+37a15f74	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	18	352	UAV:u26,space1	352	srv-typed:space1
+37a15f74	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	19	340	UAV:u25,space1	340	srv-typed:space1
+37a15f74	2cde983e	reflected	wave reduction may execute in divergent control flow	0x303	1	23	27	CBV:b0,space1	27	uav-typed:space1
+38b8a747	c4e00378	reflected	compute swizzle inside a loop	0x302	0	174	6	SRV:t147,space0	6	cbv:space0
+38b8a747	c4e00378	reflected	compute swizzle inside a loop	0x302	0	178	5	SRV:t338,space0	5	cbv:space0
+38b8a747	c4e00378	reflected	compute swizzle inside a loop	0x300	1	3	72	UAV:u21,space1	72	srv-struct:space1
+3b375136	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x303	0	60	31	SRV:t47,space0	31	uav-typed:space0
+3b375136	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	70	33	SRV:t293,space0	33	cbv:space0
+3b375136	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x300	1	3	355	UAV:u21,space1	355	srv-raw:space1
+3b6920fe	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	6	52	SRV:t333,space1	52	uav-typed:space1
+3b6920fe	2cde983e	last	raw BVH node intersection requires traversal translation	0x302	1	7	3	SRV:t339,space1	3	cbv:space1
+3cbf356b	c78d33d8	last	mubuf : atomic on a non-UAV buffer	0x303	0	119	7	SRV:t109,space0	7	uav-typed:space0
+3cbf356b	c78d33d8	last	mubuf : atomic on a non-UAV buffer	0x303	0	120	6	SRV:t28,space0	6	uav-typed:space0
+3cc36a6c	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	0	91	9	SRV:t118,space0	9	uav-typed:space0
+3cc36a6c	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	7	44	SRV:t339,space1	44	uav-typed:space1
+3cc36a6c	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	8	10	SRV:t345,space1	10	uav-typed:space1
+3cc36a6c	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	9	46	SRV:t342,space1	46	uav-typed:space1
+3cc36a6c	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	10	43	SRV:t20,space1	43	uav-typed:space1
+3cc36a6c	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	11	48	SRV:t337,space1	48	uav-typed:space1
+3cc36a6c	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	12	45	SRV:t341,space1	45	uav-typed:space1
+3cc36a6c	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	13	47	SRV:t335,space1	47	uav-typed:space1
+3cc36a6c	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	14	49	SRV:t348,space1	49	uav-typed:space1
+3cc36a6c	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	15	36	SRV:t336,space1	36	uav-typed:space1
+3cc36a6c	2cde983e	last	raw BVH node intersection requires traversal translation	0x302	1	16	0	UAV:u27,space1	0	cbv:space1
+3cc36a6c	2cde983e	last	raw BVH node intersection requires traversal translation	0x302	1	17	3	UAV:u30,space1	3	cbv:space1
+3dda80c2	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	0	129	17	SRV:t114,space0	17	cbv:space0
+3dda80c2	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	0	132	12	SRV:t88,space0	12	cbv:space0
+3dda80c2	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	10	42	SRV:t20,space1	42	uav-typed:space1
+3dda80c2	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	11	10	SRV:t337,space1	10	uav-typed:space1
+3dda80c2	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	12	50	SRV:t341,space1	50	uav-struct:space1
+3dda80c2	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	13	43	SRV:t335,space1	43	uav-typed:space1
+3dda80c2	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	14	40	SRV:t348,space1	40	uav-typed:space1
+3dda80c2	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	15	41	SRV:t336,space1	41	uav-typed:space1
+3dda80c2	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	1	20	0	UAV:u24,space1	0	cbv:space1
+3f81993d	c4e00378	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	0	76	14	SRV:t298,space0	14	cbv:space0
+3f81993d	c4e00378	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	0	77	29	SRV:t299,space0	29	cbv:space0
+3f81993d	c4e00378	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	0	78	16	SRV:t44,space0	16	cbv:space0
+3f81993d	c4e00378	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x300	1	3	422	UAV:u21,space1	422	srv-typed:space1
+3fd15e4c	462cddf0	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x300	1	5	380	UAV:u10,space1	380	srv-struct:space1
+3fd15e4c	462cddf0	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	7	10	CBV:b0,space1	10	uav-typed:space1
+3fd15e4c	462cddf0	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	8	42	CBV:b3,space1	42	uav-typed:space1
+3fe0ed6f	462cddf0	reflected	raw BVH node intersection requires traversal translation	0x300	1	5	370	UAV:u10,space1	370	srv-typed:space1
+3fe0ed6f	462cddf0	reflected	raw BVH node intersection requires traversal translation	0x300	1	6	372	UAV:u44,space1	372	srv-typed:space1
+3fe0ed6f	462cddf0	reflected	raw BVH node intersection requires traversal translation	0x303	1	7	37	CBV:b0,space1	37	uav-typed:space1
+3fe0ed6f	462cddf0	reflected	raw BVH node intersection requires traversal translation	0x303	1	8	38	CBV:b3,space1	38	uav-typed:space1
+3fecf3f8	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	16	334	UAV:u27,space1	334	srv-typed:space1
+3fecf3f8	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	17	347	UAV:u30,space1	347	srv-typed:space1
+3fecf3f8	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	18	335	UAV:u26,space1	335	srv-typed:space1
+3fecf3f8	2cde983e	reflected	wave reduction may execute in divergent control flow	0x303	1	22	27	CBV:b18,space1	27	uav-typed:space1
+3fecf3f8	2cde983e	reflected	wave reduction may execute in divergent control flow	0x303	1	24	22	CBV:b29,space1	22	uav-typed:space1
+4098d590	2cde983e	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	0	129	17	SRV:t114,space0	17	cbv:space0
+4098d590	2cde983e	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	0	132	12	SRV:t88,space0	12	cbv:space0
+4098d590	2cde983e	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	0	133	8	SRV:t196,space0	8	cbv:space0
+4098d590	2cde983e	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	11	42	SRV:t337,space1	42	uav-typed:space1
+4098d590	2cde983e	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	12	10	SRV:t341,space1	10	uav-typed:space1
+4098d590	2cde983e	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	13	50	SRV:t335,space1	50	uav-struct:space1
+4098d590	2cde983e	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	15	40	SRV:t336,space1	40	uav-typed:space1
+4098d590	2cde983e	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	1	21	0	UAV:u20,space1	0	cbv:space1
+40bf52d8	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	16	345	UAV:u27,space1	345	srv-typed:space1
+40bf52d8	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	17	339	UAV:u30,space1	339	srv-typed:space1
+40bf52d8	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	18	352	UAV:u26,space1	352	srv-typed:space1
+40bf52d8	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	19	340	UAV:u25,space1	340	srv-typed:space1
+40bf52d8	2cde983e	reflected	wave reduction may execute in divergent control flow	0x303	1	23	27	CBV:b0,space1	27	uav-typed:space1
+4522ad9a	7bcf49ce	reflected	compute swizzle inside a loop	0x303	0	33	6	SRV:t71,space0	6	uav-struct:space0
+4530b752	2cde983e	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	0	129	17	SRV:t114,space0	17	cbv:space0
+4530b752	2cde983e	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	0	132	12	SRV:t88,space0	12	cbv:space0
+4530b752	2cde983e	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	0	133	8	SRV:t196,space0	8	cbv:space0
+4530b752	2cde983e	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	10	42	SRV:t20,space1	42	uav-typed:space1
+4530b752	2cde983e	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	11	10	SRV:t337,space1	10	uav-typed:space1
+4530b752	2cde983e	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	12	50	SRV:t341,space1	50	uav-struct:space1
+4530b752	2cde983e	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	14	40	SRV:t348,space1	40	uav-typed:space1
+4530b752	2cde983e	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	15	41	SRV:t336,space1	41	uav-typed:space1
+4530b752	2cde983e	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	1	20	0	UAV:u24,space1	0	cbv:space1
+46cf3f3c	c4e00378	reflected	compute swizzle inside a loop	0x302	0	174	6	SRV:t147,space0	6	cbv:space0
+46cf3f3c	c4e00378	reflected	compute swizzle inside a loop	0x302	0	178	5	SRV:t338,space0	5	cbv:space0
+46cf3f3c	c4e00378	reflected	compute swizzle inside a loop	0x300	1	3	16	UAV:u21,space1	16	srv-struct:space1
+46e83e55	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	6	44	SRV:t333,space1	44	uav-typed:space1
+46e83e55	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	7	46	SRV:t339,space1	46	uav-typed:space1
+46e83e55	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	8	43	SRV:t345,space1	43	uav-typed:space1
+46e83e55	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	9	45	SRV:t342,space1	45	uav-typed:space1
+46e83e55	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	10	47	SRV:t20,space1	47	uav-typed:space1
+46e83e55	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	11	63	SRV:t337,space1	63	uav-typed:space1
+46e83e55	2cde983e	last	raw BVH node intersection requires traversal translation	0x302	1	13	3	SRV:t335,space1	3	cbv:space1
+4aceadf0	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	16	334	UAV:u27,space1	334	srv-typed:space1
+4aceadf0	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	17	347	UAV:u30,space1	347	srv-typed:space1
+4aceadf0	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	18	335	UAV:u26,space1	335	srv-typed:space1
+4aceadf0	2cde983e	reflected	wave reduction may execute in divergent control flow	0x303	1	22	27	CBV:b18,space1	27	uav-typed:space1
+4aceadf0	2cde983e	reflected	wave reduction may execute in divergent control flow	0x303	1	24	22	CBV:b29,space1	22	uav-typed:space1
+4b74a78c	462cddf0	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x300	1	5	380	UAV:u10,space1	380	srv-struct:space1
+4b74a78c	462cddf0	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	7	10	CBV:b0,space1	10	uav-typed:space1
+4b74a78c	462cddf0	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	8	42	CBV:b3,space1	42	uav-typed:space1
+4efd015d	87c5d2f9	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	0	76	14	SRV:t282,space0	14	cbv:space0
+4efd015d	87c5d2f9	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	0	77	29	SRV:t214,space0	29	cbv:space0
+4efd015d	87c5d2f9	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	0	78	16	SRV:t84,space0	16	cbv:space0
+4efd015d	87c5d2f9	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	0	79	27	SRV:t176,space0	27	cbv:space0
+4efd015d	87c5d2f9	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x300	1	0	7	UAV:u31,space1	7	srv-struct:space1
+4efd015d	87c5d2f9	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x300	1	2	430	UAV:u50,space1	430	srv-typed:space1
+518740c3	c4e00378	reflected	wave operation requires complete N-lane compute waves	0x303	1	0	20	SRV:t8,space1	20	uav-struct:space1
+518740c3	c4e00378	reflected	wave operation requires complete N-lane compute waves	0x302	1	1	0	SRV:t234,space1	0	cbv:space1
+518740c3	c4e00378	reflected	wave operation requires complete N-lane compute waves	0x302	1	2	30	SRV:t235,space1	30	cbv:space1
+51aa5543	02445d86	reflected	unverified EXEC election : lane is not compared for equality	0x300	0	1	90	UAV:u23,space1	90	srv-struct:space1
+51aa5543	02445d86	reflected	unverified EXEC election : lane is not compared for equality	0x303	0	2	8	CBV:b27,space1	8	uav-struct:space1
+52bd5020	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	16	334	UAV:u27,space1	334	srv-typed:space1
+52bd5020	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	17	347	UAV:u30,space1	347	srv-typed:space1
+52bd5020	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	18	335	UAV:u26,space1	335	srv-typed:space1
+52bd5020	2cde983e	reflected	wave reduction may execute in divergent control flow	0x303	1	24	22	CBV:b29,space1	22	uav-typed:space1
+531f8cc4	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	16	347	UAV:u27,space1	347	srv-typed:space1
+531f8cc4	2cde983e	reflected	wave reduction may execute in divergent control flow	0x303	1	22	27	CBV:b18,space1	27	uav-typed:space1
+545eeeaf	462cddf0	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x300	1	5	380	UAV:u10,space1	380	srv-struct:space1
+545eeeaf	462cddf0	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	7	10	CBV:b0,space1	10	uav-typed:space1
+545eeeaf	462cddf0	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	8	42	CBV:b3,space1	42	uav-typed:space1
+5588dc7a	44022573	reflected	compute swizzle inside a loop	0x300	1	3	20	UAV:u18,space1	20	srv-struct:space1
+5588dc7a	44022573	reflected	compute swizzle inside a loop	0x300	1	4	142	UAV:u24,space1	142	srv-typed:space1
+5588dc7a	44022573	reflected	compute swizzle inside a loop	0x302	1	8	26	UAV:u21,space1	26	cbv:space1
+5606b159	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	16	335	UAV:u27,space1	335	srv-typed:space1
+5606b159	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	17	348	UAV:u30,space1	348	srv-typed:space1
+5606b159	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	18	336	UAV:u26,space1	336	srv-typed:space1
+5606b159	2cde983e	reflected	wave reduction may execute in divergent control flow	0x303	1	22	27	CBV:b18,space1	27	uav-typed:space1
+5606b159	2cde983e	reflected	wave reduction may execute in divergent control flow	0x303	1	24	22	CBV:b29,space1	22	uav-typed:space1
+5a8fc834	7e366593	reflected	mubuf : atomic on a non-UAV buffer	0x303	0	119	7	SRV:t112,space0	7	uav-typed:space0
+5a8fc834	7e366593	reflected	mubuf : atomic on a non-UAV buffer	0x303	0	120	6	SRV:t379,space0	6	uav-typed:space0
+5a8fc834	7e366593	reflected	mubuf : atomic on a non-UAV buffer	0x302	1	4	0	SRV:t77,space1	0	cbv:space1
+5aafeb77	02445d86	reflected	wave reduction : unsupported reduction op v_add_f16	0x303	0	0	8	SRV:t266,space1	8	uav-typed:space1
+5aafeb77	02445d86	reflected	wave reduction : unsupported reduction op v_add_f16	0x303	0	2	6	CBV:b27,space1	6	uav-typed:space1
+5c555885	7e366593	reflected	mubuf : atomic on a non-UAV buffer	0x303	0	119	7	SRV:t112,space0	7	uav-typed:space0
+5c555885	7e366593	reflected	mubuf : atomic on a non-UAV buffer	0x303	0	120	6	SRV:t379,space0	6	uav-typed:space0
+5c555885	7e366593	reflected	mubuf : atomic on a non-UAV buffer	0x302	1	4	0	SRV:t77,space1	0	cbv:space1
+5c934f6c	c78d33d8	last	mubuf : atomic on a non-UAV buffer	0x303	0	119	7	SRV:t109,space0	7	uav-typed:space0
+5c934f6c	c78d33d8	last	mubuf : atomic on a non-UAV buffer	0x303	0	120	6	SRV:t28,space0	6	uav-typed:space0
+5cbb08d7	462cddf0	reflected	wave reduction may execute in divergent control flow	0x303	1	3	53	SRV:t331,space1	53	uav-struct:space1
+5cbb08d7	462cddf0	reflected	wave reduction may execute in divergent control flow	0x302	1	4	0	SRV:t374,space1	0	cbv:space1
+5cbb08d7	462cddf0	reflected	wave reduction may execute in divergent control flow	0x302	1	5	3	UAV:u10,space1	3	cbv:space1
+5e0ec852	2cde983e	reflected	wave reduction may execute in divergent control flow	0x302	1	21	18	UAV:u20,space1	18	cbv:space1
+5e9e2331	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	16	335	UAV:u27,space1	335	srv-typed:space1
+5e9e2331	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	17	348	UAV:u30,space1	348	srv-typed:space1
+5e9e2331	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	18	336	UAV:u26,space1	336	srv-typed:space1
+5e9e2331	2cde983e	reflected	wave reduction may execute in divergent control flow	0x303	1	24	22	CBV:b29,space1	22	uav-typed:space1
+5f37ad2e	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	6	52	SRV:t333,space1	52	uav-typed:space1
+5f37ad2e	2cde983e	last	raw BVH node intersection requires traversal translation	0x302	1	7	3	SRV:t339,space1	3	cbv:space1
+5faf0753	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	16	349	UAV:u27,space1	349	srv-typed:space1
+5faf0753	2cde983e	reflected	wave reduction may execute in divergent control flow	0x303	1	22	27	CBV:b18,space1	27	uav-typed:space1
+616632c1	7e366593	reflected	ok	0x302	1	5	0	SRV:t140,space1	0	cbv:space1
+6247ee64	030389c6	last	lane op : non-constant lane operand Some(Sgpr(N))	0x303	1	2	48	SRV:t236,space1	48	uav-struct:space1
+641ecfc4	2cde983e	last	raw BVH node intersection requires traversal translation	0x302	0	129	17	SRV:t114,space0	17	cbv:space0
+641ecfc4	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	8	40	SRV:t345,space1	40	uav-typed:space1
+641ecfc4	2cde983e	last	raw BVH node intersection requires traversal translation	0x302	1	9	20	SRV:t342,space1	20	cbv:space1
+65f82768	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x303	0	60	31	SRV:t47,space0	31	uav-typed:space0
+65f82768	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	70	33	SRV:t293,space0	33	cbv:space0
+65f82768	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x300	1	3	355	UAV:u21,space1	355	srv-raw:space1
+666b0fff	462cddf0	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x300	1	5	16	UAV:u10,space1	16	srv-struct:space1
+666b0fff	462cddf0	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x300	1	6	357	UAV:u44,space1	357	srv-raw:space1
+666b0fff	462cddf0	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x300	1	7	380	CBV:b0,space1	380	srv-struct:space1
+666b0fff	462cddf0	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	8	45	CBV:b3,space1	45	uav-typed:space1
+67edcb42	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	16	345	UAV:u27,space1	345	srv-typed:space1
+67edcb42	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	17	339	UAV:u30,space1	339	srv-typed:space1
+67edcb42	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	18	352	UAV:u26,space1	352	srv-typed:space1
+67edcb42	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	19	340	UAV:u25,space1	340	srv-typed:space1
+6b9780f3	7e366593	last	ok	0x302	1	2	0	SRV:t69,space1	0	cbv:space1
+6bc841d4	462cddf0	reflected	wave reduction EXECZ vote in a block-dispatched program	0x300	1	5	341	UAV:u10,space1	341	srv-struct:space1
+6bc841d4	462cddf0	reflected	wave reduction EXECZ vote in a block-dispatched program	0x300	1	6	16	UAV:u44,space1	16	srv-struct:space1
+6bc841d4	462cddf0	reflected	wave reduction EXECZ vote in a block-dispatched program	0x300	1	7	373	CBV:b0,space1	373	srv-typed:space1
+6bc841d4	462cddf0	reflected	wave reduction EXECZ vote in a block-dispatched program	0x300	1	8	344	CBV:b3,space1	344	srv-typed:space1
+6c9e48e4	c4e00378	reflected	compute swizzle inside a loop	0x302	0	174	6	SRV:t147,space0	6	cbv:space0
+6c9e48e4	c4e00378	reflected	compute swizzle inside a loop	0x302	0	178	5	SRV:t338,space0	5	cbv:space0
+6c9e48e4	c4e00378	reflected	compute swizzle inside a loop	0x300	1	3	72	UAV:u21,space1	72	srv-struct:space1
+6ee5fafa	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	16	345	UAV:u27,space1	345	srv-typed:space1
+6ee5fafa	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	17	339	UAV:u30,space1	339	srv-typed:space1
+6ee5fafa	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	18	352	UAV:u26,space1	352	srv-typed:space1
+6ee5fafa	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	19	340	UAV:u25,space1	340	srv-typed:space1
+6ee5fafa	2cde983e	reflected	wave reduction may execute in divergent control flow	0x303	1	23	27	CBV:b0,space1	27	uav-typed:space1
+715c944b	462cddf0	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x300	1	5	16	UAV:u10,space1	16	srv-struct:space1
+715c944b	462cddf0	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x300	1	6	357	UAV:u44,space1	357	srv-raw:space1
+715c944b	462cddf0	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x300	1	7	380	CBV:b0,space1	380	srv-struct:space1
+715c944b	462cddf0	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	8	45	CBV:b3,space1	45	uav-typed:space1
+75629a41	c4e00378	reflected	wave reduction may execute in divergent control flow	0x302	0	174	6	SRV:t147,space0	6	cbv:space0
+75629a41	c4e00378	reflected	wave reduction may execute in divergent control flow	0x302	0	178	5	SRV:t338,space0	5	cbv:space0
+75629a41	c4e00378	reflected	wave reduction may execute in divergent control flow	0x300	1	3	16	UAV:u21,space1	16	srv-struct:space1
+76647d72	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x303	0	60	31	SRV:t47,space0	31	uav-typed:space0
+76647d72	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	66	5	SRV:t289,space0	5	cbv:space0
+76647d72	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	70	33	SRV:t293,space0	33	cbv:space0
+7743fd46	7e366593	reflected	ok	0x302	1	4	0	SRV:t77,space1	0	cbv:space1
+7a0f51cb	2cde983e	last	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	129	17	SRV:t114,space0	17	cbv:space0
+7a0f51cb	2cde983e	last	lane op : non-constant lane operand Some(Sgpr(N))	0x303	1	8	40	SRV:t345,space1	40	uav-typed:space1
+7a0f51cb	2cde983e	last	lane op : non-constant lane operand Some(Sgpr(N))	0x302	1	9	20	SRV:t342,space1	20	cbv:space1
+7dca0804	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	174	6	SRV:t147,space0	6	cbv:space0
+7dca0804	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	178	5	SRV:t338,space0	5	cbv:space0
+7dca0804	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	182	29	SRV:t340,space0	29	cbv:space0
+7dca0804	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x300	1	3	353	UAV:u21,space1	353	srv-raw:space1
+7eb4eb8c	2cde983e	reflected	wave reduction may execute in divergent control flow	0x302	1	21	18	UAV:u20,space1	18	cbv:space1
+7ede6a44	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	16	348	UAV:u27,space1	348	srv-typed:space1
+7ede6a44	2cde983e	reflected	wave reduction may execute in divergent control flow	0x303	1	22	27	CBV:b18,space1	27	uav-typed:space1
+7efa09d2	c4e00378	reflected	compute swizzle inside a loop	0x302	0	174	6	SRV:t147,space0	6	cbv:space0
+7efa09d2	c4e00378	reflected	compute swizzle inside a loop	0x302	0	178	5	SRV:t338,space0	5	cbv:space0
+7efa09d2	c4e00378	reflected	compute swizzle inside a loop	0x300	1	3	72	UAV:u21,space1	72	srv-struct:space1
+7f2fc98b	7bcf49ce	reflected	compute swizzle inside a loop	0x303	0	33	6	SRV:t71,space0	6	uav-struct:space0
+83dc3520	7e366593	reflected	ok	0x302	1	5	0	SRV:t140,space1	0	cbv:space1
+8794c177	7e366593	reflected	ok	0x302	1	5	0	SRV:t140,space1	0	cbv:space1
+8aae05e2	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	66	5	SRV:t289,space0	5	cbv:space0
+8aae05e2	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	70	33	SRV:t293,space0	33	cbv:space0
+8aae05e2	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x300	1	3	16	UAV:u21,space1	16	srv-struct:space1
+8ae931bd	030389c6	reflected	descriptor dataflow did not converge	0x302	0	122	6	SRV:t212,space0	6	cbv:space0
+8ae931bd	030389c6	reflected	descriptor dataflow did not converge	0x302	0	123	11	SRV:t35,space0	11	cbv:space0
+8ae931bd	030389c6	reflected	descriptor dataflow did not converge	0x300	1	3	383	UAV:u27,space1	383	srv-typed:space1
+8ae931bd	030389c6	reflected	descriptor dataflow did not converge	0x300	1	4	16	UAV:u25,space1	16	srv-struct:space1
+8ae931bd	030389c6	reflected	descriptor dataflow did not converge	0x300	1	5	381	UAV:u23,space1	381	srv-struct:space1
+8ae931bd	030389c6	reflected	descriptor dataflow did not converge	0x300	1	6	377	UAV:u24,space1	377	srv-typed:space1
+8ae931bd	030389c6	reflected	descriptor dataflow did not converge	0x300	1	7	367	UAV:u28,space1	367	srv-typed:space1
+8ae931bd	030389c6	reflected	descriptor dataflow did not converge	0x300	1	8	376	UAV:u26,space1	376	srv-typed:space1
+8b86707e	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	174	6	SRV:t147,space0	6	cbv:space0
+8b86707e	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	178	5	SRV:t338,space0	5	cbv:space0
+8b86707e	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	182	29	SRV:t340,space0	29	cbv:space0
+8b86707e	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x300	1	3	353	UAV:u21,space1	353	srv-raw:space1
+8d02ef34	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	174	6	SRV:t147,space0	6	cbv:space0
+8d02ef34	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	178	5	SRV:t338,space0	5	cbv:space0
+8d02ef34	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x300	1	3	353	UAV:u21,space1	353	srv-raw:space1
+8d746d01	462cddf0	reflected	wave reduction may execute in divergent control flow	0x302	0	92	10	SRV:t286,space0	10	cbv:space0
+8d746d01	462cddf0	reflected	wave reduction may execute in divergent control flow	0x302	0	93	12	SRV:t108,space0	12	cbv:space0
+8d746d01	462cddf0	reflected	wave reduction may execute in divergent control flow	0x302	0	94	11	SRV:t60,space0	11	cbv:space0
+8d746d01	462cddf0	reflected	wave reduction may execute in divergent control flow	0x302	0	96	13	SRV:t38,space0	13	cbv:space0
+8d746d01	462cddf0	reflected	wave reduction may execute in divergent control flow	0x300	1	7	382	CBV:b0,space1	382	srv-typed:space1
+8d746d01	462cddf0	reflected	wave reduction may execute in divergent control flow	0x300	1	8	16	CBV:b3,space1	16	srv-struct:space1
+8dcd4849	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	66	5	SRV:t289,space0	5	cbv:space0
+8dcd4849	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	70	33	SRV:t293,space0	33	cbv:space0
+8dcd4849	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x300	1	3	16	UAV:u21,space1	16	srv-struct:space1
+8ddb0dca	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	0	129	17	SRV:t114,space0	17	cbv:space0
+8ddb0dca	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	0	132	12	SRV:t88,space0	12	cbv:space0
+8ddb0dca	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	10	42	SRV:t20,space1	42	uav-typed:space1
+8ddb0dca	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	11	10	SRV:t337,space1	10	uav-typed:space1
+8ddb0dca	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	12	50	SRV:t341,space1	50	uav-struct:space1
+8ddb0dca	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	13	43	SRV:t335,space1	43	uav-typed:space1
+8ddb0dca	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	14	40	SRV:t348,space1	40	uav-typed:space1
+8ddb0dca	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	15	41	SRV:t336,space1	41	uav-typed:space1
+8ddb0dca	2cde983e	last	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	1	20	0	UAV:u24,space1	0	cbv:space1
+8e091a00	44022573	reflected	wave reduction may execute in divergent control flow	0x300	1	3	99	UAV:u18,space1	99	srv-struct:space1
+8e091a00	44022573	reflected	wave reduction may execute in divergent control flow	0x300	1	4	93	UAV:u24,space1	93	srv-struct:space1
+8e091a00	44022573	reflected	wave reduction may execute in divergent control flow	0x300	1	5	102	UAV:u23,space1	102	srv-struct:space1
+8e091a00	44022573	reflected	wave reduction may execute in divergent control flow	0x300	1	6	90	UAV:u25,space1	90	srv-typed:space1
+8e091a00	44022573	reflected	wave reduction may execute in divergent control flow	0x300	1	7	105	UAV:u22,space1	105	srv-typed:space1
+8e091a00	44022573	reflected	wave reduction may execute in divergent control flow	0x300	1	8	104	UAV:u21,space1	104	srv-typed:space1
+8e091a00	44022573	reflected	wave reduction may execute in divergent control flow	0x300	1	9	103	CBV:b0,space1	103	srv-typed:space1
+8e091a00	44022573	reflected	wave reduction may execute in divergent control flow	0x303	1	10	11	CBV:b27,space1	11	uav-struct:space1
+93d5cec6	c78d33d8	last	mubuf : atomic on a non-UAV buffer	0x303	0	186	7	SRV:t76,space0	7	uav-typed:space0
+93d5cec6	c78d33d8	last	mubuf : atomic on a non-UAV buffer	0x303	0	187	6	SRV:t331,space0	6	uav-typed:space0
+94f97fac	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	16	336	UAV:u27,space1	336	srv-typed:space1
+94f97fac	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	17	349	UAV:u30,space1	349	srv-typed:space1
+94f97fac	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	18	337	UAV:u26,space1	337	srv-typed:space1
+94f97fac	2cde983e	reflected	wave reduction may execute in divergent control flow	0x303	1	24	22	CBV:b29,space1	22	uav-typed:space1
+9550b5b6	462cddf0	reflected	compute swizzle inside a loop	0x303	0	108	10	SRV:t209,space0	10	uav-struct:space0
+9550b5b6	462cddf0	reflected	compute swizzle inside a loop	0x303	1	4	29	SRV:t374,space1	29	uav-struct:space1
+9550b5b6	462cddf0	reflected	compute swizzle inside a loop	0x303	1	7	22	CBV:b0,space1	22	uav-typed:space1
+9550b5b6	462cddf0	reflected	compute swizzle inside a loop	0x303	1	8	23	CBV:b3,space1	23	uav-typed:space1
+983f8030	c4e00378	reflected	compute swizzle inside a loop	0x302	0	174	6	SRV:t147,space0	6	cbv:space0
+983f8030	c4e00378	reflected	compute swizzle inside a loop	0x302	0	178	5	SRV:t338,space0	5	cbv:space0
+983f8030	c4e00378	reflected	compute swizzle inside a loop	0x300	1	3	72	UAV:u21,space1	72	srv-struct:space1
+9dcc2d66	030389c6	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	0	6	SRV:t243,space1	6	uav-raw:space1
+9dcc2d66	030389c6	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	1	9	SRV:t240,space1	9	uav-struct:space1
+9dcc2d66	030389c6	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	2	8	SRV:t236,space1	8	uav-struct:space1
+9dcc2d66	030389c6	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	1	3	5	UAV:u27,space1	5	cbv:space1
+9e9da03e	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	16	336	UAV:u27,space1	336	srv-typed:space1
+9e9da03e	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	17	349	UAV:u30,space1	349	srv-typed:space1
+9e9da03e	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	18	337	UAV:u26,space1	337	srv-typed:space1
+9e9da03e	2cde983e	reflected	wave reduction may execute in divergent control flow	0x303	1	22	27	CBV:b18,space1	27	uav-typed:space1
+9e9da03e	2cde983e	reflected	wave reduction may execute in divergent control flow	0x303	1	24	22	CBV:b29,space1	22	uav-typed:space1
+9f46bfdf	462cddf0	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x300	1	5	380	UAV:u10,space1	380	srv-struct:space1
+9f46bfdf	462cddf0	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	7	10	CBV:b0,space1	10	uav-typed:space1
+9f46bfdf	462cddf0	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	8	42	CBV:b3,space1	42	uav-typed:space1
+a3605ad6	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x303	0	60	31	SRV:t47,space0	31	uav-typed:space0
+a3605ad6	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	66	5	SRV:t289,space0	5	cbv:space0
+a3605ad6	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	70	33	SRV:t293,space0	33	cbv:space0
+a3c29b75	c4e00378	reflected	backward permute with scalar branches needs verified convergent control flow	0x302	0	174	6	SRV:t147,space0	6	cbv:space0
+a3c29b75	c4e00378	reflected	backward permute with scalar branches needs verified convergent control flow	0x302	0	178	5	SRV:t338,space0	5	cbv:space0
+a3c29b75	c4e00378	reflected	backward permute with scalar branches needs verified convergent control flow	0x300	1	3	72	UAV:u21,space1	72	srv-struct:space1
+a4fe656b	7e366593	reflected	ok	0x302	1	4	0	SRV:t77,space1	0	cbv:space1
+a5e11c84	462cddf0	reflected	wave reduction EXECZ vote in a block-dispatched program	0x302	0	92	10	SRV:t286,space0	10	cbv:space0
+a5e11c84	462cddf0	reflected	wave reduction EXECZ vote in a block-dispatched program	0x302	0	93	12	SRV:t108,space0	12	cbv:space0
+a5e11c84	462cddf0	reflected	wave reduction EXECZ vote in a block-dispatched program	0x302	0	94	11	SRV:t60,space0	11	cbv:space0
+a5e11c84	462cddf0	reflected	wave reduction EXECZ vote in a block-dispatched program	0x302	0	96	13	SRV:t38,space0	13	cbv:space0
+a5e11c84	462cddf0	reflected	wave reduction EXECZ vote in a block-dispatched program	0x300	1	7	16	CBV:b0,space1	16	srv-struct:space1
+a5e11c84	462cddf0	reflected	wave reduction EXECZ vote in a block-dispatched program	0x300	1	8	384	CBV:b3,space1	384	srv-typed:space1
+a640d8aa	c4e00378	reflected	ok	0x303	0	60	17	SRV:t47,space0	17	uav-typed:space0
+a640d8aa	c4e00378	reflected	ok	0x303	0	62	31	SRV:t286,space0	31	uav-typed:space0
+a640d8aa	c4e00378	reflected	ok	0x303	0	63	30	SRV:t55,space0	30	uav-typed:space0
+a640d8aa	c4e00378	reflected	ok	0x302	0	66	5	SRV:t289,space0	5	cbv:space0
+a640d8aa	c4e00378	reflected	ok	0x302	0	67	11	SRV:t290,space0	11	cbv:space0
+a640d8aa	c4e00378	reflected	ok	0x302	0	68	15	SRV:t291,space0	15	cbv:space0
+a640d8aa	c4e00378	reflected	ok	0x302	0	69	13	SRV:t292,space0	13	cbv:space0
+a640d8aa	c4e00378	reflected	ok	0x300	1	3	268	UAV:u21,space1	268	srv-struct:space1
+a6810222	030389c6	reflected	D16 image access to an integer-typed image unsupported	0x302	0	94	11	SRV:t166,space0	11	cbv:space0
+a6810222	030389c6	reflected	D16 image access to an integer-typed image unsupported	0x300	1	3	385	UAV:u27,space1	385	srv-typed:space1
+a6810222	030389c6	reflected	D16 image access to an integer-typed image unsupported	0x300	1	4	388	UAV:u25,space1	388	srv-typed:space1
+a6810222	030389c6	reflected	D16 image access to an integer-typed image unsupported	0x302	1	7	0	UAV:u28,space1	0	cbv:space1
+a6810222	030389c6	reflected	D16 image access to an integer-typed image unsupported	0x302	1	8	3	UAV:u26,space1	3	cbv:space1
+a6a7c372	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	66	5	SRV:t289,space0	5	cbv:space0
+a6a7c372	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	70	33	SRV:t293,space0	33	cbv:space0
+a6a7c372	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x300	1	3	16	UAV:u21,space1	16	srv-struct:space1
+a8177350	7e366593	reflected	ok	0x302	1	5	0	SRV:t140,space1	0	cbv:space1
+a902033a	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x303	0	60	31	SRV:t47,space0	31	uav-typed:space0
+a902033a	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	70	33	SRV:t293,space0	33	cbv:space0
+a902033a	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x300	1	3	355	UAV:u21,space1	355	srv-raw:space1
+a97bc5ae	030389c6	reflected	unverified EXEC election : lane is not compared for equality	0x303	0	60	17	SRV:t47,space0	17	uav-typed:space0
+a97bc5ae	030389c6	reflected	unverified EXEC election : lane is not compared for equality	0x303	0	61	30	SRV:t23,space0	30	uav-raw:space0
+a97bc5ae	030389c6	reflected	unverified EXEC election : lane is not compared for equality	0x303	0	63	31	SRV:t55,space0	31	uav-typed:space0
+a97bc5ae	030389c6	reflected	unverified EXEC election : lane is not compared for equality	0x302	0	70	28	SRV:t293,space0	28	cbv:space0
+a97bc5ae	030389c6	reflected	unverified EXEC election : lane is not compared for equality	0x303	1	1	39	SRV:t240,space1	39	uav-struct:space1
+a97bc5ae	030389c6	reflected	unverified EXEC election : lane is not compared for equality	0x303	1	2	43	SRV:t236,space1	43	uav-struct:space1
+a97bc5ae	030389c6	reflected	unverified EXEC election : lane is not compared for equality	0x302	1	5	18	UAV:u23,space1	18	cbv:space1
+a97bc5ae	030389c6	reflected	unverified EXEC election : lane is not compared for equality	0x302	1	6	0	UAV:u24,space1	0	cbv:space1
+a97bc5ae	030389c6	reflected	unverified EXEC election : lane is not compared for equality	0x302	1	7	26	UAV:u28,space1	26	cbv:space1
+ab873d1f	c4e00378	reflected	wave reduction may execute in divergent control flow	0x302	0	92	10	SRV:t305,space0	10	cbv:space0
+ab873d1f	c4e00378	reflected	wave reduction may execute in divergent control flow	0x302	0	93	12	SRV:t306,space0	12	cbv:space0
+ab873d1f	c4e00378	reflected	wave reduction may execute in divergent control flow	0x302	0	94	11	SRV:t166,space0	11	cbv:space0
+ab873d1f	c4e00378	reflected	wave reduction may execute in divergent control flow	0x302	0	96	13	SRV:t308,space0	13	cbv:space0
+ab873d1f	c4e00378	reflected	wave reduction may execute in divergent control flow	0x300	1	3	90	UAV:u21,space1	90	srv-typed:space1
+adae18ef	c4e00378	reflected	unverified EXEC election : lane is not compared for equality	0x303	0	60	17	SRV:t47,space0	17	uav-typed:space0
+adae18ef	c4e00378	reflected	unverified EXEC election : lane is not compared for equality	0x303	0	62	31	SRV:t286,space0	31	uav-typed:space0
+adae18ef	c4e00378	reflected	unverified EXEC election : lane is not compared for equality	0x303	0	63	30	SRV:t55,space0	30	uav-typed:space0
+adae18ef	c4e00378	reflected	unverified EXEC election : lane is not compared for equality	0x302	0	66	5	SRV:t289,space0	5	cbv:space0
+adae18ef	c4e00378	reflected	unverified EXEC election : lane is not compared for equality	0x302	0	68	15	SRV:t291,space0	15	cbv:space0
+adae18ef	c4e00378	reflected	unverified EXEC election : lane is not compared for equality	0x300	1	3	268	UAV:u21,space1	268	srv-struct:space1
+ae88c100	c4e00378	reflected	backward permute with scalar branches needs verified convergent control flow	0x302	0	174	6	SRV:t147,space0	6	cbv:space0
+ae88c100	c4e00378	reflected	backward permute with scalar branches needs verified convergent control flow	0x302	0	178	5	SRV:t338,space0	5	cbv:space0
+ae88c100	c4e00378	reflected	backward permute with scalar branches needs verified convergent control flow	0x300	1	3	72	UAV:u21,space1	72	srv-struct:space1
+b413657f	c4e00378	reflected	unverified EXEC election : lane is not compared for equality	0x303	0	60	17	SRV:t47,space0	17	uav-typed:space0
+b413657f	c4e00378	reflected	unverified EXEC election : lane is not compared for equality	0x303	0	62	31	SRV:t286,space0	31	uav-typed:space0
+b413657f	c4e00378	reflected	unverified EXEC election : lane is not compared for equality	0x303	0	63	30	SRV:t55,space0	30	uav-typed:space0
+b413657f	c4e00378	reflected	unverified EXEC election : lane is not compared for equality	0x302	0	66	5	SRV:t289,space0	5	cbv:space0
+b413657f	c4e00378	reflected	unverified EXEC election : lane is not compared for equality	0x302	0	67	11	SRV:t290,space0	11	cbv:space0
+b413657f	c4e00378	reflected	unverified EXEC election : lane is not compared for equality	0x302	0	68	15	SRV:t291,space0	15	cbv:space0
+b413657f	c4e00378	reflected	unverified EXEC election : lane is not compared for equality	0x302	0	69	13	SRV:t292,space0	13	cbv:space0
+b413657f	c4e00378	reflected	unverified EXEC election : lane is not compared for equality	0x300	1	3	268	UAV:u21,space1	268	srv-struct:space1
+b44784d2	7e366593	reflected	ok	0x302	1	5	0	SRV:t140,space1	0	cbv:space1
+b61af74b	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	16	336	UAV:u27,space1	336	srv-typed:space1
+b61af74b	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	17	349	UAV:u30,space1	349	srv-typed:space1
+b61af74b	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	18	337	UAV:u26,space1	337	srv-typed:space1
+b61af74b	2cde983e	reflected	wave reduction may execute in divergent control flow	0x303	1	24	22	CBV:b29,space1	22	uav-typed:space1
+b649cf1f	b4b9b343	reflected	mixed access widths on a raster image	0x303	1	0	10	SRV:t14,space1	10	uav-typed:space1
+b649cf1f	b4b9b343	reflected	mixed access widths on a raster image	0x302	1	1	15	SRV:t366,space1	15	cbv:space1
+b649cf1f	b4b9b343	reflected	mixed access widths on a raster image	0x302	1	2	0	UAV:u32,space1	0	cbv:space1
+b6860255	c78d33d8	last	mubuf : atomic on a non-UAV buffer	0x303	0	186	7	SRV:t76,space0	7	uav-typed:space0
+b6860255	c78d33d8	last	mubuf : atomic on a non-UAV buffer	0x303	0	187	6	SRV:t331,space0	6	uav-typed:space0
+b9c29308	462cddf0	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x300	1	5	380	UAV:u10,space1	380	srv-struct:space1
+b9c29308	462cddf0	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	8	42	CBV:b3,space1	42	uav-typed:space1
+ba91aaa8	0369d624	reflected	backward permute with scalar branches needs verified convergent control flow	0x300	0	0	79	UAV:u55,space1	79	srv-raw:space1
+baf7a7d4	030389c6	reflected	wave reduction : invalid integer sum lane read	0x302	0	177	11	SRV:t60,space0	11	cbv:space0
+baf7a7d4	030389c6	reflected	wave reduction : invalid integer sum lane read	0x302	0	180	13	SRV:t182,space0	13	cbv:space0
+baf7a7d4	030389c6	reflected	wave reduction : invalid integer sum lane read	0x302	1	4	0	UAV:u25,space1	0	cbv:space1
+baf7a7d4	030389c6	reflected	wave reduction : invalid integer sum lane read	0x302	1	5	30	UAV:u23,space1	30	cbv:space1
+bb0321ac	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x303	0	60	31	SRV:t47,space0	31	uav-typed:space0
+bb0321ac	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	66	5	SRV:t289,space0	5	cbv:space0
+bb0321ac	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	70	33	SRV:t293,space0	33	cbv:space0
+bd054a51	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x303	0	60	31	SRV:t47,space0	31	uav-typed:space0
+bd054a51	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	70	33	SRV:t293,space0	33	cbv:space0
+bd054a51	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x300	1	3	355	UAV:u21,space1	355	srv-raw:space1
+bef83aae	02445d86	reflected	wave reduction : unsupported reduction op v_add_f16	0x303	0	0	7	SRV:t266,space1	7	uav-typed:space1
+bef83aae	02445d86	reflected	wave reduction : unsupported reduction op v_add_f16	0x303	0	2	6	CBV:b27,space1	6	uav-typed:space1
+bfcf21f3	7e366593	reflected	ok	0x302	1	4	0	SRV:t77,space1	0	cbv:space1
+c051d27c	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x303	0	60	31	SRV:t47,space0	31	uav-typed:space0
+c051d27c	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	66	5	SRV:t289,space0	5	cbv:space0
+c051d27c	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	70	33	SRV:t293,space0	33	cbv:space0
+c051d27c	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x300	1	3	355	UAV:u21,space1	355	srv-raw:space1
+c05c6ba9	7bcf49ce	reflected	compute swizzle inside a loop	0x303	0	33	6	SRV:t71,space0	6	uav-struct:space0
+c2ba1d88	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	66	5	SRV:t289,space0	5	cbv:space0
+c2ba1d88	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	70	33	SRV:t293,space0	33	cbv:space0
+c2ba1d88	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x300	1	3	16	UAV:u21,space1	16	srv-struct:space1
+c42f2303	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	66	5	SRV:t289,space0	5	cbv:space0
+c42f2303	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	70	33	SRV:t293,space0	33	cbv:space0
+c42f2303	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x300	1	3	16	UAV:u21,space1	16	srv-struct:space1
+c517fce0	c78d33d8	last	mubuf : atomic on a non-UAV buffer	0x303	0	186	7	SRV:t76,space0	7	uav-typed:space0
+c517fce0	c78d33d8	last	mubuf : atomic on a non-UAV buffer	0x303	0	187	6	SRV:t331,space0	6	uav-typed:space0
+c517fce0	c78d33d8	last	mubuf : atomic on a non-UAV buffer	0x302	0	191	18	SRV:t332,space0	18	cbv:space0
+c5afcb5c	462cddf0	reflected	wave reduction may execute in divergent control flow	0x302	0	92	10	SRV:t286,space0	10	cbv:space0
+c5afcb5c	462cddf0	reflected	wave reduction may execute in divergent control flow	0x302	0	93	12	SRV:t108,space0	12	cbv:space0
+c5afcb5c	462cddf0	reflected	wave reduction may execute in divergent control flow	0x302	0	94	11	SRV:t60,space0	11	cbv:space0
+c5afcb5c	462cddf0	reflected	wave reduction may execute in divergent control flow	0x302	0	96	13	SRV:t38,space0	13	cbv:space0
+c5afcb5c	462cddf0	reflected	wave reduction may execute in divergent control flow	0x300	1	5	126	UAV:u10,space1	126	srv-struct:space1
+c5afcb5c	462cddf0	reflected	wave reduction may execute in divergent control flow	0x300	1	7	382	CBV:b0,space1	382	srv-typed:space1
+c5afcb5c	462cddf0	reflected	wave reduction may execute in divergent control flow	0x300	1	8	16	CBV:b3,space1	16	srv-struct:space1
+c64b73af	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	16	345	UAV:u27,space1	345	srv-typed:space1
+c64b73af	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	17	339	UAV:u30,space1	339	srv-typed:space1
+c64b73af	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	18	352	UAV:u26,space1	352	srv-typed:space1
+c64b73af	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	19	340	UAV:u25,space1	340	srv-typed:space1
+c64b73af	2cde983e	reflected	wave reduction may execute in divergent control flow	0x303	1	23	27	CBV:b0,space1	27	uav-typed:space1
+c7caa489	462cddf0	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x300	1	5	16	UAV:u10,space1	16	srv-struct:space1
+c7caa489	462cddf0	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x300	1	6	357	UAV:u44,space1	357	srv-raw:space1
+c7caa489	462cddf0	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x300	1	7	380	CBV:b0,space1	380	srv-struct:space1
+c7caa489	462cddf0	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	8	45	CBV:b3,space1	45	uav-typed:space1
+ca5d0085	7e366593	reflected	ok	0x302	1	5	0	SRV:t140,space1	0	cbv:space1
+cd96694c	7e366593	reflected	ok	0x302	1	4	0	SRV:t77,space1	0	cbv:space1
+cf85ed51	7e366593	reflected	mubuf : atomic on a non-UAV buffer	0x303	0	119	7	SRV:t112,space0	7	uav-typed:space0
+cf85ed51	7e366593	reflected	mubuf : atomic on a non-UAV buffer	0x303	0	120	6	SRV:t379,space0	6	uav-typed:space0
+cf85ed51	7e366593	reflected	mubuf : atomic on a non-UAV buffer	0x302	1	5	0	SRV:t140,space1	0	cbv:space1
+d0b3624c	030389c6	reflected	wave operation requires complete N-lane compute waves	0x303	1	1	6	SRV:t240,space1	6	uav-typed:space1
+d0b3624c	030389c6	reflected	wave operation requires complete N-lane compute waves	0x302	1	2	0	SRV:t236,space1	0	cbv:space1
+d29efb84	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x303	0	60	31	SRV:t47,space0	31	uav-typed:space0
+d29efb84	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	66	5	SRV:t289,space0	5	cbv:space0
+d29efb84	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	70	33	SRV:t293,space0	33	cbv:space0
+d29efb84	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x300	1	3	355	UAV:u21,space1	355	srv-raw:space1
+d52f30e0	7e366593	reflected	mubuf : atomic on a non-UAV buffer	0x303	0	119	7	SRV:t112,space0	7	uav-typed:space0
+d52f30e0	7e366593	reflected	mubuf : atomic on a non-UAV buffer	0x303	0	120	6	SRV:t379,space0	6	uav-typed:space0
+d52f30e0	7e366593	reflected	mubuf : atomic on a non-UAV buffer	0x302	1	5	0	SRV:t140,space1	0	cbv:space1
+d5b6a2f4	030389c6	reflected	wave reduction : unrecognized DPP reduction shuffle	0x302	0	101	11	SRV:t113,space0	11	cbv:space0
+d5b6a2f4	030389c6	reflected	wave reduction : unrecognized DPP reduction shuffle	0x303	1	0	54	SRV:t243,space1	54	uav-raw:space1
+d5b6a2f4	030389c6	reflected	wave reduction : unrecognized DPP reduction shuffle	0x303	1	1	57	SRV:t240,space1	57	uav-typed:space1
+d5b6a2f4	030389c6	reflected	wave reduction : unrecognized DPP reduction shuffle	0x303	1	2	56	SRV:t236,space1	56	uav-typed:space1
+d7965490	c4e00378	reflected	backward permute with scalar branches needs verified convergent control flow	0x302	0	174	6	SRV:t147,space0	6	cbv:space0
+d7965490	c4e00378	reflected	backward permute with scalar branches needs verified convergent control flow	0x302	0	178	5	SRV:t338,space0	5	cbv:space0
+d7965490	c4e00378	reflected	backward permute with scalar branches needs verified convergent control flow	0x300	1	3	72	UAV:u21,space1	72	srv-struct:space1
+d7e11860	c78d33d8	last	mubuf : atomic on a non-UAV buffer	0x303	0	186	7	SRV:t76,space0	7	uav-typed:space0
+d7e11860	c78d33d8	last	mubuf : atomic on a non-UAV buffer	0x303	0	187	6	SRV:t331,space0	6	uav-typed:space0
+da38744d	7e366593	reflected	ok	0x302	1	4	0	SRV:t77,space1	0	cbv:space1
+db4ce27b	7e366593	last	mubuf : atomic on a non-UAV buffer	0x303	0	119	7	SRV:t112,space0	7	uav-typed:space0
+db4ce27b	7e366593	last	mubuf : atomic on a non-UAV buffer	0x303	0	120	6	SRV:t379,space0	6	uav-typed:space0
+db4ce27b	7e366593	last	mubuf : atomic on a non-UAV buffer	0x302	1	2	0	SRV:t69,space1	0	cbv:space1
+dbe233b5	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	66	5	SRV:t289,space0	5	cbv:space0
+dbe233b5	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	70	33	SRV:t293,space0	33	cbv:space0
+dbe233b5	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x300	1	3	16	UAV:u21,space1	16	srv-struct:space1
+df39fe6e	44022573	reflected	unverified EXEC election : count of a non-SGPR mask	0x300	1	3	383	UAV:u18,space1	383	srv-raw:space1
+df39fe6e	44022573	reflected	unverified EXEC election : count of a non-SGPR mask	0x300	1	4	369	UAV:u24,space1	369	srv-struct:space1
+df39fe6e	44022573	reflected	unverified EXEC election : count of a non-SGPR mask	0x300	1	5	260	UAV:u23,space1	260	srv-struct:space1
+df39fe6e	44022573	reflected	unverified EXEC election : count of a non-SGPR mask	0x300	1	6	269	UAV:u25,space1	269	srv-struct:space1
+df39fe6e	44022573	reflected	unverified EXEC election : count of a non-SGPR mask	0x300	1	7	265	UAV:u22,space1	265	srv-typed:space1
+df39fe6e	44022573	reflected	unverified EXEC election : count of a non-SGPR mask	0x300	1	8	271	UAV:u21,space1	271	srv-typed:space1
+df39fe6e	44022573	reflected	unverified EXEC election : count of a non-SGPR mask	0x300	1	9	270	CBV:b0,space1	270	srv-typed:space1
+df39fe6e	44022573	reflected	unverified EXEC election : count of a non-SGPR mask	0x303	1	10	31	CBV:b27,space1	31	uav-struct:space1
+e2c3eaad	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	16	345	UAV:u27,space1	345	srv-typed:space1
+e2c3eaad	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	17	339	UAV:u30,space1	339	srv-typed:space1
+e2c3eaad	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	18	352	UAV:u26,space1	352	srv-typed:space1
+e2c3eaad	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	19	340	UAV:u25,space1	340	srv-typed:space1
+e2d03525	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	66	5	SRV:t289,space0	5	cbv:space0
+e2d03525	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	70	33	SRV:t293,space0	33	cbv:space0
+e2d03525	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x300	1	3	16	UAV:u21,space1	16	srv-struct:space1
+e4b1b26f	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	16	334	UAV:u27,space1	334	srv-typed:space1
+e4b1b26f	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	17	347	UAV:u30,space1	347	srv-typed:space1
+e4b1b26f	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	18	335	UAV:u26,space1	335	srv-typed:space1
+e4b1b26f	2cde983e	reflected	wave reduction may execute in divergent control flow	0x303	1	24	22	CBV:b29,space1	22	uav-typed:space1
+e5e0cff7	c4e00378	reflected	raw BVH node intersection requires traversal translation	0x302	0	174	6	SRV:t147,space0	6	cbv:space0
+e5e0cff7	c4e00378	reflected	raw BVH node intersection requires traversal translation	0x302	0	178	5	SRV:t338,space0	5	cbv:space0
+e5e0cff7	c4e00378	reflected	raw BVH node intersection requires traversal translation	0x302	0	182	29	SRV:t340,space0	29	cbv:space0
+e5e0cff7	c4e00378	reflected	raw BVH node intersection requires traversal translation	0x300	1	3	353	UAV:u21,space1	353	srv-raw:space1
+e5fbc632	030389c6	reflected	translated HLSL of N MiB exceeds the N MiB compiler budget	0x302	0	122	6	SRV:t212,space0	6	cbv:space0
+e5fbc632	030389c6	reflected	translated HLSL of N MiB exceeds the N MiB compiler budget	0x302	0	123	11	SRV:t35,space0	11	cbv:space0
+e5fbc632	030389c6	reflected	translated HLSL of N MiB exceeds the N MiB compiler budget	0x303	1	2	50	SRV:t236,space1	50	uav-struct:space1
+e5fbc632	030389c6	reflected	translated HLSL of N MiB exceeds the N MiB compiler budget	0x302	1	3	0	UAV:u27,space1	0	cbv:space1
+e5fbc632	030389c6	reflected	translated HLSL of N MiB exceeds the N MiB compiler budget	0x302	1	4	3	UAV:u25,space1	3	cbv:space1
+e64e1a81	462cddf0	reflected	mimg : s12 not an image descriptor (None)	0x303	0	108	10	SRV:t209,space0	10	uav-struct:space0
+e64e1a81	462cddf0	reflected	mimg : s12 not an image descriptor (None)	0x303	1	4	29	SRV:t374,space1	29	uav-struct:space1
+e64e1a81	462cddf0	reflected	mimg : s12 not an image descriptor (None)	0x303	1	7	22	CBV:b0,space1	22	uav-typed:space1
+e64e1a81	462cddf0	reflected	mimg : s12 not an image descriptor (None)	0x303	1	8	23	CBV:b3,space1	23	uav-typed:space1
+e74749b5	c78d33d8	last	mubuf : atomic on a non-UAV buffer	0x303	0	119	7	SRV:t109,space0	7	uav-typed:space0
+e74749b5	c78d33d8	last	mubuf : atomic on a non-UAV buffer	0x303	0	120	6	SRV:t28,space0	6	uav-typed:space0
+e75aa843	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	16	336	UAV:u27,space1	336	srv-typed:space1
+e75aa843	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	17	349	UAV:u30,space1	349	srv-typed:space1
+e75aa843	2cde983e	reflected	wave reduction may execute in divergent control flow	0x300	1	18	337	UAV:u26,space1	337	srv-typed:space1
+e75aa843	2cde983e	reflected	wave reduction may execute in divergent control flow	0x303	1	22	27	CBV:b18,space1	27	uav-typed:space1
+e75aa843	2cde983e	reflected	wave reduction may execute in divergent control flow	0x303	1	24	22	CBV:b29,space1	22	uav-typed:space1
+e766ed86	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	7	44	SRV:t339,space1	44	uav-typed:space1
+e766ed86	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	8	10	SRV:t345,space1	10	uav-typed:space1
+e766ed86	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	9	46	SRV:t342,space1	46	uav-typed:space1
+e766ed86	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	10	43	SRV:t20,space1	43	uav-typed:space1
+e766ed86	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	11	48	SRV:t337,space1	48	uav-typed:space1
+e766ed86	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	12	45	SRV:t341,space1	45	uav-typed:space1
+e766ed86	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	13	47	SRV:t335,space1	47	uav-typed:space1
+e766ed86	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	14	49	SRV:t348,space1	49	uav-typed:space1
+e766ed86	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	15	36	SRV:t336,space1	36	uav-typed:space1
+e766ed86	2cde983e	last	raw BVH node intersection requires traversal translation	0x302	1	16	0	UAV:u27,space1	0	cbv:space1
+e766ed86	2cde983e	last	raw BVH node intersection requires traversal translation	0x302	1	17	3	UAV:u30,space1	3	cbv:space1
+ea09bfef	030389c6	reflected	wave reduction may execute in divergent control flow	0x303	1	1	53	SRV:t240,space1	53	uav-struct:space1
+ea09bfef	030389c6	reflected	wave reduction may execute in divergent control flow	0x303	1	2	37	SRV:t236,space1	37	uav-typed:space1
+ea09bfef	030389c6	reflected	wave reduction may execute in divergent control flow	0x302	1	6	3	UAV:u24,space1	3	cbv:space1
+eb54f26a	7e366593	last	mubuf : atomic on a non-UAV buffer	0x303	0	119	7	SRV:t112,space0	7	uav-typed:space0
+eb54f26a	7e366593	last	mubuf : atomic on a non-UAV buffer	0x303	0	120	6	SRV:t379,space0	6	uav-typed:space0
+ed8f3a88	931cdd4d	reflected	ok	0x303	1	2	13	SRV:t269,space1	13	uav-typed:space1
+ee98fc5f	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	7	44	SRV:t339,space1	44	uav-typed:space1
+ee98fc5f	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	8	10	SRV:t345,space1	10	uav-typed:space1
+ee98fc5f	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	9	46	SRV:t342,space1	46	uav-typed:space1
+ee98fc5f	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	10	43	SRV:t20,space1	43	uav-typed:space1
+ee98fc5f	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	11	48	SRV:t337,space1	48	uav-typed:space1
+ee98fc5f	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	12	45	SRV:t341,space1	45	uav-typed:space1
+ee98fc5f	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	13	47	SRV:t335,space1	47	uav-typed:space1
+ee98fc5f	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	14	49	SRV:t348,space1	49	uav-typed:space1
+ee98fc5f	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	15	36	SRV:t336,space1	36	uav-typed:space1
+ee98fc5f	2cde983e	last	raw BVH node intersection requires traversal translation	0x302	1	16	0	UAV:u27,space1	0	cbv:space1
+ee98fc5f	2cde983e	last	raw BVH node intersection requires traversal translation	0x302	1	17	3	UAV:u30,space1	3	cbv:space1
+efb743dd	7e366593	reflected	ok	0x302	1	4	0	SRV:t77,space1	0	cbv:space1
+f038ad55	7e366593	reflected	mubuf : atomic on a non-UAV buffer	0x303	0	119	7	SRV:t112,space0	7	uav-typed:space0
+f038ad55	7e366593	reflected	mubuf : atomic on a non-UAV buffer	0x303	0	120	6	SRV:t379,space0	6	uav-typed:space0
+f038ad55	7e366593	reflected	mubuf : atomic on a non-UAV buffer	0x302	1	4	0	SRV:t77,space1	0	cbv:space1
+f1197d90	c4e00378	reflected	compute swizzle inside a loop	0x302	0	174	6	SRV:t147,space0	6	cbv:space0
+f1197d90	c4e00378	reflected	compute swizzle inside a loop	0x302	0	178	5	SRV:t338,space0	5	cbv:space0
+f1197d90	c4e00378	reflected	compute swizzle inside a loop	0x300	1	3	72	UAV:u21,space1	72	srv-struct:space1
+f3985403	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x303	0	60	31	SRV:t47,space0	31	uav-typed:space0
+f3985403	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	66	5	SRV:t289,space0	5	cbv:space0
+f3985403	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	70	33	SRV:t293,space0	33	cbv:space0
+f5f2b800	b003f9e8	reflected	wave reduction : unrecognized DPP reduction shuffle	0x300	1	1	328	UAV:u31,space1	328	srv-typed:space1
+f958d90a	030389c6	last	wave reduction : invalid integer sum lane read	0x302	0	70	33	SRV:t293,space0	33	cbv:space0
+f958d90a	030389c6	last	wave reduction : invalid integer sum lane read	0x300	1	3	389	UAV:u27,space1	389	srv-typed:space1
+f958d90a	030389c6	last	wave reduction : invalid integer sum lane read	0x300	1	4	16	UAV:u25,space1	16	srv-struct:space1
+f958d90a	030389c6	last	wave reduction : invalid integer sum lane read	0x300	1	5	364	UAV:u23,space1	364	srv-typed:space1
+f9c81a48	c4e00378	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	0	76	14	SRV:t298,space0	14	cbv:space0
+f9c81a48	c4e00378	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	0	77	29	SRV:t299,space0	29	cbv:space0
+f9c81a48	c4e00378	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	0	78	16	SRV:t44,space0	16	cbv:space0
+f9c81a48	c4e00378	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x302	0	79	27	SRV:t300,space0	27	cbv:space0
+f9c81a48	c4e00378	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x300	1	3	422	UAV:u21,space1	422	srv-typed:space1
+facdd2b4	462cddf0	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x300	1	5	16	UAV:u10,space1	16	srv-struct:space1
+facdd2b4	462cddf0	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x300	1	6	357	UAV:u44,space1	357	srv-raw:space1
+facdd2b4	462cddf0	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x300	1	7	380	CBV:b0,space1	380	srv-struct:space1
+facdd2b4	462cddf0	reflected	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	0x303	1	8	45	CBV:b3,space1	45	uav-typed:space1
+fb8e97e0	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	0	91	9	SRV:t118,space0	9	uav-typed:space0
+fb8e97e0	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	7	44	SRV:t339,space1	44	uav-typed:space1
+fb8e97e0	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	8	10	SRV:t345,space1	10	uav-typed:space1
+fb8e97e0	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	9	46	SRV:t342,space1	46	uav-typed:space1
+fb8e97e0	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	10	43	SRV:t20,space1	43	uav-typed:space1
+fb8e97e0	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	11	48	SRV:t337,space1	48	uav-typed:space1
+fb8e97e0	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	12	45	SRV:t341,space1	45	uav-typed:space1
+fb8e97e0	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	13	47	SRV:t335,space1	47	uav-typed:space1
+fb8e97e0	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	14	49	SRV:t348,space1	49	uav-typed:space1
+fb8e97e0	2cde983e	last	raw BVH node intersection requires traversal translation	0x303	1	15	36	SRV:t336,space1	36	uav-typed:space1
+fb8e97e0	2cde983e	last	raw BVH node intersection requires traversal translation	0x302	1	16	0	UAV:u27,space1	0	cbv:space1
+fb8e97e0	2cde983e	last	raw BVH node intersection requires traversal translation	0x302	1	17	3	UAV:u30,space1	3	cbv:space1
+fe0caf5e	030389c6	last	lane op : non-constant lane operand Some(Sgpr(N))	0x303	1	1	48	SRV:t240,space1	48	uav-struct:space1
+fe0ce5ea	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	66	5	SRV:t289,space0	5	cbv:space0
+fe0ce5ea	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x302	0	70	33	SRV:t293,space0	33	cbv:space0
+fe0ce5ea	c4e00378	reflected	lane op : non-constant lane operand Some(Sgpr(N))	0x300	1	3	16	UAV:u21,space1	16	srv-struct:space1

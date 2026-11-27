@@ -1,0 +1,13 @@
+diff --git a/runtime/dxbc/src/compute_table.rs b/runtime/dxbc/src/compute_table.rs
+index 0dfebdf..678a797 100644
+--- a/runtime/dxbc/src/compute_table.rs
++++ b/runtime/dxbc/src/compute_table.rs
+@@ -212,7 +212,7 @@ fn read_bindings(
+             // Constants in a later parameter of an extended compute root; the
+             // user-data check below confirms parameter, register and size.
+             (2, _) if stage == 5 && root.is_some() && location >> 16 >= 2 => (4, 2),
+-            (0x100, _) if raster_root_srv && location & 0xff == 4 && shape == 1 => (ROOT_SRV, 4),
++            (0x100, _) if (raster_root_srv || stage == 5 && root.is_some()) && location & 0xff == 4 && shape == 1 => (ROOT_SRV, 4),
+             (0x401, _) => (3, 1),                 // inlined static sampler
+             _ => return None,
+         };

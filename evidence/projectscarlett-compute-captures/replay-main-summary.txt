@@ -1,0 +1,28 @@
+arm last refused: 33
+arm last ok: 6
+arm original refused: 7
+arm reflected refused: 141
+arm reflected ok: 36
+  42 ok
+  41 wave reduction may execute in divergent control flow
+  33 lane op : non-constant lane operand Some(Sgpr(N))
+  24 v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent
+  16 mubuf : atomic on a non-UAV buffer
+  15 raw BVH node intersection requires traversal translation
+  15 compute swizzle inside a loop
+   6 unverified EXEC election : lane is not compared for equality
+   5 backward permute with scalar branches needs verified convergent control flow
+   5 wave reduction : unrecognized DPP reduction shuffle
+   2 mixed access widths on a raster image
+   2 unsupported encoding
+   2 translated HLSL of N MiB exceeds the N MiB compiler budget
+   2 raw buffer IDXEN needs the console descriptor stride
+   2 wave operation requires complete N-lane compute waves
+   2 wave reduction : unsupported reduction op v_add_f16
+   2 wave reduction EXECZ vote in a block-dispatched program
+   2 wave reduction : invalid integer sum lane read
+   1 wave reduction after an early exit
+   1 descriptor dataflow did not converge
+   1 D16 image access to an integer-typed image unsupported
+   1 unverified EXEC election : count of a non-SGPR mask
+   1 mimg : s12 not an image descriptor (None)

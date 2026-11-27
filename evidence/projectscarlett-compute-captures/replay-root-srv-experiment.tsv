@@ -1,0 +1,224 @@
+shader	root	tables	flags	reflect	arm	used	variant	result	profile	dxil	spirv	coverage
+0002a729	c4e00378	2	0x400	append:8	reflected	reflected	0144991b	raw BVH node intersection requires traversal translation	-	-	-	-
+010eb57b	7e366593	3	0xc00	rewrite:13	reflected	reflected	028da576	ok	cs_6_6	ok	ok	all covered
+013174cc	2cde983e	2	0xc00	rewrite:87	reflected	reflected	7a02ba5a	wave reduction may execute in divergent control flow	-	-	-	-
+01680dd4	2cde983e	2	0xc00	rewrite:83	reflected	reflected	2917c75d	ok	cs_6_6	ok	ok	all covered
+02ff7cf0	c4e00378	2	0x400	append:11	reflected	reflected	8d696172	lane op : non-constant lane operand Some(Sgpr(N))	-	-	-	-
+03516d13	44022573	2	0xc00	rewrite:23	reflected	reflected	f0d0d825	wave reduction may execute in divergent control flow	-	-	-	-
+043b2776	2cde983e	2	0xc00	rewrite:29	reflected	reflected	0ae86674	ok	cs_6_6	ok	ok	all covered
+0454f394	2cde983e	2	0xc00	rewrite:86	reflected	reflected	06a99f0c	wave reduction may execute in divergent control flow	-	-	-	-
+04fb3cc5	2cde983e	2	0xc00	unsupported(no-bindings,-nothing-to-append)	last	captured	12dd4a09	raw BVH node intersection requires traversal translation	-	-	-	-
+0683b22a	2cde983e	2	0xc00	unsupported(no-bindings,-nothing-to-append)	last	captured	625a38f1	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	-	-	-	-
+07e0061f	c4e00378	2	0x400	rewrite:55	reflected	reflected	63929482	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	-	-	-	-
+081be2a8	7e366593	3	0xc00	rewrite:10	reflected	reflected	e45af712	ok	cs_6_0	ok	ok	all covered
+0a927142	87c5d2f9	2	0x400	rewrite:56	reflected	reflected	c75af52f	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	-	-	-	-
+0accbcc7	c4e00378	2	0x400	append:18	reflected	reflected	44f59d99	lane op : non-constant lane operand Some(Sgpr(N))	-	-	-	-
+0b8e55dc	c4e00378	2	0x400	append:8	reflected	reflected	5fc38845	lane op : non-constant lane operand Some(Sgpr(N))	-	-	-	-
+0d0cb96d	7e366593	3	0xc00	rewrite:10	reflected	reflected	cdc9726d	ok	cs_6_0	ok	ok	all covered
+0d0d76a2	2cde983e	2	0xc00	rewrite:84	reflected	reflected	8e8fbf27	wave reduction may execute in divergent control flow	-	-	-	-
+0d8f54f6	2cde983e	2	0xc00	rewrite:27	reflected	reflected	d0522aea	ok	cs_6_6	ok	ok	all covered
+0dc3e729	2cde983e	2	0xc00	rewrite:87	reflected	reflected	9157b78b	ok	cs_6_6	ok	ok	all covered
+0e64dc73	2cde983e	2	0xc00	rewrite:87	reflected	reflected	e5480a0a	ok	cs_6_6	ok	ok	all covered
+0f01e5e5	c4e00378	2	0x400	rewrite:10	reflected	reflected	d4905710	wave reduction may execute in divergent control flow	-	-	-	-
+10186a17	2cde983e	2	0xc00	unsupported(no-bindings,-nothing-to-append)	last	captured	0cc11152	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	-	-	-	-
+110d93b6	2cde983e	2	0xc00	rewrite:82	reflected	reflected	1b3bad8b	wave reduction may execute in divergent control flow	-	-	-	-
+11425b90	c4e00378	2	0x400	rewrite:12	reflected	reflected	3f248cee	unverified EXEC election : lane is not compared for equality	-	-	-	-
+1288b197	7e366593	3	0xc00	rewrite:13	reflected	reflected	e9b3931d	ok	cs_6_6	ok	ok	all covered
+13e3ae43	2cde983e	2	0xc00	rewrite:83	reflected	reflected	955ecc7b	wave reduction may execute in divergent control flow	-	-	-	-
+177395b1	44022573	2	0xc00	rewrite:25	reflected	reflected	acadbf59	wave reduction may execute in divergent control flow	-	-	-	-
+17e1f58e	2cde983e	2	0xc00	rewrite:81	reflected	reflected	8e5818b0	ok	cs_6_6	ok	ok	all covered
+19283d59	2cde983e	2	0xc00	rewrite:83	reflected	reflected	ee216057	wave reduction may execute in divergent control flow	-	-	-	-
+1a703579	c4e00378	2	0x400	rewrite:34	reflected	reflected	2372aea9	backward permute with scalar branches needs verified convergent control flow	-	-	-	-
+1adddb30	2cde983e	2	0xc00	rewrite:83	reflected	reflected	8bb1869f	wave reduction may execute in divergent control flow	-	-	-	-
+1b1f74ad	b4b9b343	2	0x400	rewrite:8	reflected	reflected	69e95103	mixed access widths on a raster image	-	-	-	-
+1b72db4e	7e366593	3	0xc00	rewrite:12	reflected	reflected	692329ca	ok	cs_6_0	ok	ok	all covered
+1b98915b	2cde983e	2	0xc00	rewrite:85	reflected	reflected	f8c34272	ok	cs_6_6	ok	ok	all covered
+1bf05523	2cde983e	2	0xc00	rewrite:29	reflected	reflected	99f32195	ok	cs_6_6	ok	ok	all covered
+1bf1b0a8	44022573	2	0xc00	rewrite:28	reflected	reflected	e8f81f76	compute swizzle inside a loop	-	-	-	-
+1c15e181	c4e00378	2	0x400	append:18	reflected	reflected	f5430046	lane op : non-constant lane operand Some(Sgpr(N))	-	-	-	-
+1e4ba57c	7bcf49ce	1	0x400	rewrite:3	reflected	reflected	bcc1f95b	compute swizzle inside a loop	-	-	-	-
+21c45d8d	2cde983e	2	0xc00	rewrite:83	reflected	reflected	20312d33	wave reduction may execute in divergent control flow	-	-	-	-
+228725fe	030389c6	2	0x0	rewrite:20	reflected	reflected	6a70bd41	unverified EXEC election : lane is not compared for equality	-	-	-	-
+22c58c77	c4e00378	2	0x400	append:9	reflected	reflected	67a073ac	lane op : non-constant lane operand Some(Sgpr(N))	-	-	-	-
+232aa0c0	c4e00378	2	0x400	append:11	reflected	reflected	0f4c81d6	lane op : non-constant lane operand Some(Sgpr(N))	-	-	-	-
+23f4e85c	2cde983e	2	0xc00	rewrite:87	reflected	reflected	205b036c	wave reduction may execute in divergent control flow	-	-	-	-
+24c3f871	030389c6	2	0x0	rewrite:4	reflected	reflected	84bc666b	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	-	-	-	-
+255ca6d7	87c5d2f9	2	0x400	rewrite:11	reflected	reflected	a05e21b6	unsupported encoding	-	-	-	-
+2580c6c3	7e366593	3	0xc00	rewrite:13	reflected	reflected	56580289	ok	cs_6_0	ok	ok	all covered
+26537c13	87c5d2f9	2	0x400	rewrite:11	reflected	reflected	b161cfa2	unsupported encoding	-	-	-	-
+280e6946	7e366593	3	0xc00	rewrite:9	reflected	reflected	203654c9	ok	cs_6_0	ok	ok	all covered
+2aeb7376	7e366593	3	0xc00	rewrite:9	reflected	reflected	6a97e8c5	ok	cs_6_0	ok	ok	all covered
+2d1a3fda	c4e00378	2	0x400	append:11	reflected	reflected	23bb25f0	lane op : non-constant lane operand Some(Sgpr(N))	-	-	-	-
+2e9ced03	c78d33d8	3	0x400	rewrite:8	reflected	reflected	294b7e99	ok	cs_6_0	ok	ok	all covered
+310219f6	462cddf0	2	0xc00	rewrite:6	reflected	reflected	63111a39	wave reduction after an early exit	-	-	-	-
+31499244	c4e00378	2	0x400	append:11	reflected	reflected	4d886e6c	lane op : non-constant lane operand Some(Sgpr(N))	-	-	-	-
+32d9d987	2cde983e	2	0xc00	unsupported(no-bindings,-nothing-to-append)	last	captured	433a6858	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	-	-	-	-
+35af8e6d	030389c6	2	0x0	rewrite:29	reflected	reflected	40a6b3dc	translated HLSL of N MiB exceeds the N MiB compiler budget	-	-	-	-
+361ac2f8	7e366593	3	0xc00	rewrite:9	reflected	reflected	9d14c810	ok	cs_6_0	ok	ok	all covered
+36eb6522	2cde983e	2	0xc00	unsupported(no-bindings,-nothing-to-append)	last	captured	4d8e2234	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	-	-	-	-
+37a15f74	2cde983e	2	0xc00	rewrite:87	reflected	reflected	a279576a	wave reduction may execute in divergent control flow	-	-	-	-
+38b8a747	c4e00378	2	0x400	rewrite:33	reflected	reflected	55c1f6fb	compute swizzle inside a loop	-	-	-	-
+3b375136	c4e00378	2	0x400	append:9	reflected	reflected	7dcfafe8	lane op : non-constant lane operand Some(Sgpr(N))	-	-	-	-
+3b6920fe	2cde983e	2	0xc00	unsupported(no-bindings,-nothing-to-append)	last	captured	2ac21a53	raw BVH node intersection requires traversal translation	-	-	-	-
+3cbf356b	c78d33d8	3	0x400	rewrite:12	reflected	reflected	ef897f03	ok	cs_6_0	ok	ok	all covered
+3cc36a6c	2cde983e	2	0xc00	unsupported(no-bindings,-nothing-to-append)	last	captured	87c562f9	raw BVH node intersection requires traversal translation	-	-	-	-
+3dd31b4d	c78d33d8	3	0x400	rewrite:8	reflected	reflected	67dfa8c5	ok	cs_6_0	ok	ok	all covered
+3dda80c2	2cde983e	2	0xc00	unsupported(no-bindings,-nothing-to-append)	last	captured	c29cdb5f	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	-	-	-	-
+3f81993d	c4e00378	2	0x400	rewrite:44	reflected	reflected	6a42a3d9	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	-	-	-	-
+3fd15e4c	462cddf0	2	0xc00	append:3	reflected	reflected	688765e7	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	-	-	-	-
+3fe0ed6f	462cddf0	2	0xc00	append:3	reflected	reflected	f2f93bb8	raw BVH node intersection requires traversal translation	-	-	-	-
+3fecf3f8	2cde983e	2	0xc00	rewrite:86	reflected	reflected	913d2d93	wave reduction may execute in divergent control flow	-	-	-	-
+4098d590	2cde983e	2	0xc00	rewrite:30	reflected	reflected	1e868af6	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	-	-	-	-
+40bf52d8	2cde983e	2	0xc00	rewrite:87	reflected	reflected	0bb1f790	wave reduction may execute in divergent control flow	-	-	-	-
+445d99ee	2cde983e	2	0xc00	original:86	original	captured	577fb67d	raw buffer IDXEN needs the console descriptor stride	-	-	-	-
+4522ad9a	7bcf49ce	1	0x400	rewrite:3	reflected	reflected	7f96991f	compute swizzle inside a loop	-	-	-	-
+4530b752	2cde983e	2	0xc00	rewrite:29	reflected	reflected	48eb43d7	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	-	-	-	-
+46cf3f3c	c4e00378	2	0x400	rewrite:33	reflected	reflected	f49c95f2	compute swizzle inside a loop	-	-	-	-
+46e83e55	2cde983e	2	0xc00	unsupported(no-bindings,-nothing-to-append)	last	captured	329d723c	raw BVH node intersection requires traversal translation	-	-	-	-
+4aceadf0	2cde983e	2	0xc00	rewrite:86	reflected	reflected	967dfc8b	wave reduction may execute in divergent control flow	-	-	-	-
+4b74a78c	462cddf0	2	0xc00	append:3	reflected	reflected	452f2714	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	-	-	-	-
+4db550a2	2cde983e	2	0xc00	rewrite:81	reflected	reflected	c792b9ce	ok	cs_6_6	ok	ok	all covered
+4dcb30ca	2cde983e	2	0xc00	rewrite:29	reflected	reflected	ef2e3df4	ok	cs_6_6	ok	ok	all covered
+4efd015d	87c5d2f9	2	0x400	rewrite:49	reflected	reflected	163aea6b	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	-	-	-	-
+518740c3	c4e00378	2	0x400	rewrite:5	reflected	reflected	5a032528	wave operation requires complete N-lane compute waves	-	-	-	-
+51aa5543	02445d86	1	0x0	rewrite:6	reflected	reflected	7c6f0572	unverified EXEC election : lane is not compared for equality	-	-	-	-
+52bd5020	2cde983e	2	0xc00	rewrite:82	reflected	reflected	2f5de09f	wave reduction may execute in divergent control flow	-	-	-	-
+531f8cc4	2cde983e	2	0xc00	rewrite:84	reflected	reflected	32591b1f	wave reduction may execute in divergent control flow	-	-	-	-
+545eeeaf	462cddf0	2	0xc00	append:3	reflected	reflected	6216a589	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	-	-	-	-
+555132cb	44022573	2	0xc00	original:22	original	captured	5b55cd3f	compute swizzle inside a loop	-	-	-	-
+5588dc7a	44022573	2	0xc00	rewrite:28	reflected	reflected	03aed13a	compute swizzle inside a loop	-	-	-	-
+5606b159	2cde983e	2	0xc00	rewrite:87	reflected	reflected	2b154cd5	wave reduction may execute in divergent control flow	-	-	-	-
+5a8fc834	7e366593	3	0xc00	rewrite:13	reflected	reflected	ac22c958	ok	cs_6_0	ok	ok	all covered
+5aafeb77	02445d86	1	0x0	rewrite:4	reflected	reflected	1165f54d	wave reduction : unsupported reduction op v_add_f16	-	-	-	-
+5c555885	7e366593	3	0xc00	rewrite:12	reflected	reflected	d8686292	ok	cs_6_0	ok	ok	all covered
+5c934f6c	c78d33d8	3	0x400	rewrite:12	reflected	reflected	53c3c2a0	ok	cs_6_0	ok	ok	all covered
+5cbb08d7	462cddf0	2	0xc00	rewrite:10	reflected	reflected	ba4742d2	wave reduction may execute in divergent control flow	-	-	-	-
+5e0ec852	2cde983e	2	0xc00	rewrite:79	reflected	reflected	97ea77ba	wave reduction may execute in divergent control flow	-	-	-	-
+5e9e2331	2cde983e	2	0xc00	rewrite:83	reflected	reflected	93066bb8	wave reduction may execute in divergent control flow	-	-	-	-
+5f37ad2e	2cde983e	2	0xc00	unsupported(no-bindings,-nothing-to-append)	last	captured	03092f67	raw BVH node intersection requires traversal translation	-	-	-	-
+5faf0753	2cde983e	2	0xc00	rewrite:84	reflected	reflected	a2c4bbe9	wave reduction may execute in divergent control flow	-	-	-	-
+616632c1	7e366593	3	0xc00	rewrite:13	reflected	reflected	31f6e4f1	ok	cs_6_6	ok	ok	all covered
+6247ee64	030389c6	2	0x0	unsupported(no-bindings,-nothing-to-append)	last	captured	61e8da63	lane op : non-constant lane operand Some(Sgpr(N))	-	-	-	-
+62d2c63d	462cddf0	2	0xc00	unsupported(no-bindings,-nothing-to-append)	last	captured	50d4da5b	lane op : non-constant lane operand Some(Sgpr(N))	-	-	-	-
+641ecfc4	2cde983e	2	0xc00	unsupported(no-bindings,-nothing-to-append)	last	captured	1c384890	raw BVH node intersection requires traversal translation	-	-	-	-
+65f82768	c4e00378	2	0x400	append:9	reflected	reflected	bc5884f2	lane op : non-constant lane operand Some(Sgpr(N))	-	-	-	-
+666b0fff	462cddf0	2	0xc00	append:5	reflected	reflected	799b182e	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	-	-	-	-
+67edcb42	2cde983e	2	0xc00	rewrite:83	reflected	reflected	4de304ce	wave reduction may execute in divergent control flow	-	-	-	-
+6900aba9	7e366593	3	0xc00	original:17	original	captured	e97792b6	ok	cs_6_0	ok	ok	s66,space0
+6b9780f3	7e366593	3	0xc00	rewrite:8	reflected	reflected	e55a68cb	ok	cs_6_0	ok	ok	all covered
+6bc841d4	462cddf0	2	0xc00	rewrite:64	reflected	reflected	815080f5	wave reduction EXECZ vote in a block-dispatched program	-	-	-	-
+6c9e48e4	c4e00378	2	0x400	rewrite:32	reflected	reflected	1a8d1dd6	compute swizzle inside a loop	-	-	-	-
+6ee5fafa	2cde983e	2	0xc00	rewrite:87	reflected	reflected	895f5042	wave reduction may execute in divergent control flow	-	-	-	-
+715c944b	462cddf0	2	0xc00	append:5	reflected	reflected	120d5744	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	-	-	-	-
+755e465e	2cde983e	2	0xc00	rewrite:85	reflected	reflected	9ac29920	ok	cs_6_6	ok	ok	all covered
+75629a41	c4e00378	2	0x400	rewrite:32	reflected	reflected	0fa48676	wave reduction may execute in divergent control flow	-	-	-	-
+76647d72	c4e00378	2	0x400	append:11	reflected	reflected	6e48aca0	lane op : non-constant lane operand Some(Sgpr(N))	-	-	-	-
+7743fd46	7e366593	3	0xc00	rewrite:9	reflected	reflected	92e28d22	ok	cs_6_0	ok	ok	all covered
+7839656e	07540b43	2	0xc00	original:12	original	captured	fb6cea6f	wave reduction : unrecognized DPP reduction shuffle	-	-	-	-
+7a0f51cb	2cde983e	2	0xc00	unsupported(no-bindings,-nothing-to-append)	last	captured	d0290086	lane op : non-constant lane operand Some(Sgpr(N))	-	-	-	-
+7dca0804	c4e00378	2	0x400	append:18	reflected	reflected	def91c89	lane op : non-constant lane operand Some(Sgpr(N))	-	-	-	-
+7eb4eb8c	2cde983e	2	0xc00	rewrite:83	reflected	reflected	287b54d1	wave reduction may execute in divergent control flow	-	-	-	-
+7ede6a44	2cde983e	2	0xc00	rewrite:84	reflected	reflected	3d440c2f	wave reduction may execute in divergent control flow	-	-	-	-
+7efa09d2	c4e00378	2	0x400	rewrite:32	reflected	reflected	d0ac3041	compute swizzle inside a loop	-	-	-	-
+7f2fc98b	7bcf49ce	1	0x400	rewrite:3	reflected	reflected	e5fa45b3	compute swizzle inside a loop	-	-	-	-
+81c446f6	b003f9e8	2	0x0	rewrite:12	reflected	reflected	c7356465	wave reduction may execute in divergent control flow	-	-	-	-
+83dc3520	7e366593	3	0xc00	rewrite:13	reflected	reflected	fc8a9245	ok	cs_6_6	ok	ok	all covered
+8794c177	7e366593	3	0xc00	rewrite:13	reflected	reflected	1cdd8dd9	ok	cs_6_6	ok	ok	all covered
+89333ec5	462cddf0	2	0xc00	unsupported(no-bindings,-nothing-to-append)	last	captured	45975539	raw BVH node intersection requires traversal translation	-	-	-	-
+8aae05e2	c4e00378	2	0x400	append:9	reflected	reflected	c64f97fc	lane op : non-constant lane operand Some(Sgpr(N))	-	-	-	-
+8ae931bd	030389c6	2	0x0	rewrite:38	reflected	reflected	e155e80d	descriptor dataflow did not converge	-	-	-	-
+8b86707e	c4e00378	2	0x400	append:18	reflected	reflected	56de450c	lane op : non-constant lane operand Some(Sgpr(N))	-	-	-	-
+8d02ef34	c4e00378	2	0x400	append:8	reflected	reflected	0f58543e	lane op : non-constant lane operand Some(Sgpr(N))	-	-	-	-
+8d746d01	462cddf0	2	0xc00	rewrite:64	reflected	reflected	afe849e8	wave reduction may execute in divergent control flow	-	-	-	-
+8dcd4849	c4e00378	2	0x400	append:8	reflected	reflected	2e247ebf	lane op : non-constant lane operand Some(Sgpr(N))	-	-	-	-
+8ddb0dca	2cde983e	2	0xc00	unsupported(no-bindings,-nothing-to-append)	last	captured	49a628e4	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	-	-	-	-
+8e091a00	44022573	2	0xc00	rewrite:32	reflected	reflected	e2b5ce72	wave reduction may execute in divergent control flow	-	-	-	-
+91b27f41	2cde983e	2	0xc00	rewrite:27	reflected	reflected	45d17c5e	ok	cs_6_6	ok	ok	all covered
+93d5cec6	c78d33d8	3	0x400	rewrite:8	reflected	reflected	143258f4	ok	cs_6_0	ok	ok	all covered
+9449848a	2cde983e	2	0xc00	rewrite:87	reflected	reflected	fa9b350d	ok	cs_6_6	ok	ok	all covered
+94f97fac	2cde983e	2	0xc00	rewrite:83	reflected	reflected	25ddf7a6	wave reduction may execute in divergent control flow	-	-	-	-
+9550b5b6	462cddf0	2	0xc00	rewrite:22	reflected	reflected	fdf55be2	compute swizzle inside a loop	-	-	-	-
+983f8030	c4e00378	2	0x400	rewrite:31	reflected	reflected	07478fbc	compute swizzle inside a loop	-	-	-	-
+9dcc2d66	030389c6	2	0x0	rewrite:4	reflected	reflected	0f0681c0	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	-	-	-	-
+9dfb6122	07540b43	2	0xc00	original:12	original	captured	546fc7a9	wave reduction : unrecognized DPP reduction shuffle	-	-	-	-
+9e9da03e	2cde983e	2	0xc00	rewrite:87	reflected	reflected	ef2b1b5e	wave reduction may execute in divergent control flow	-	-	-	-
+9f46bfdf	462cddf0	2	0xc00	append:3	reflected	reflected	e6cd49c7	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	-	-	-	-
+a3605ad6	c4e00378	2	0x400	append:10	reflected	reflected	50297987	lane op : non-constant lane operand Some(Sgpr(N))	-	-	-	-
+a3c29b75	c4e00378	2	0x400	rewrite:32	reflected	reflected	7447171a	backward permute with scalar branches needs verified convergent control flow	-	-	-	-
+a4fe656b	7e366593	3	0xc00	rewrite:9	reflected	reflected	2a49ad5c	ok	cs_6_0	ok	ok	all covered
+a5e11c84	462cddf0	2	0xc00	rewrite:63	reflected	reflected	75b95a13	wave reduction EXECZ vote in a block-dispatched program	-	-	-	-
+a640d8aa	c4e00378	2	0x400	rewrite:46	reflected	reflected	dd7c730f	ok	cs_6_6	ok	ok	all covered
+a6810222	030389c6	2	0x0	rewrite:13	reflected	reflected	3a73bc0d	D16 image access to an integer-typed image unsupported	-	-	-	-
+a6a7c372	c4e00378	2	0x400	append:9	reflected	reflected	931dc186	lane op : non-constant lane operand Some(Sgpr(N))	-	-	-	-
+a8177350	7e366593	3	0xc00	rewrite:13	reflected	reflected	27b395aa	ok	cs_6_6	ok	ok	all covered
+a902033a	c4e00378	2	0x400	append:9	reflected	reflected	13d32b94	lane op : non-constant lane operand Some(Sgpr(N))	-	-	-	-
+a97bc5ae	030389c6	2	0x0	rewrite:17	reflected	reflected	a56432c2	unverified EXEC election : lane is not compared for equality	-	-	-	-
+aacba088	07540b43	2	0xc00	original:12	original	captured	4150f5c1	wave reduction : unrecognized DPP reduction shuffle	-	-	-	-
+ab873d1f	c4e00378	2	0x400	rewrite:64	reflected	reflected	98529164	wave reduction may execute in divergent control flow	-	-	-	-
+adae18ef	c4e00378	2	0x400	rewrite:33	reflected	reflected	f2349829	unverified EXEC election : lane is not compared for equality	-	-	-	-
+ae88c100	c4e00378	2	0x400	rewrite:33	reflected	reflected	e959198b	backward permute with scalar branches needs verified convergent control flow	-	-	-	-
+b040e054	2cde983e	2	0xc00	rewrite:83	reflected	reflected	ef7c752c	ok	cs_6_6	ok	ok	all covered
+b148207a	44022573	2	0xc00	original:22	original	captured	44975450	compute swizzle inside a loop	-	-	-	-
+b413657f	c4e00378	2	0x400	rewrite:46	reflected	reflected	1a105b7e	unverified EXEC election : lane is not compared for equality	-	-	-	-
+b44784d2	7e366593	3	0xc00	rewrite:13	reflected	reflected	24c6ff74	ok	cs_6_6	ok	ok	all covered
+b61af74b	2cde983e	2	0xc00	rewrite:83	reflected	reflected	3bc386b3	wave reduction may execute in divergent control flow	-	-	-	-
+b649cf1f	b4b9b343	2	0x400	rewrite:8	reflected	reflected	1a11a3ca	mixed access widths on a raster image	-	-	-	-
+b6860255	c78d33d8	3	0x400	rewrite:8	reflected	reflected	972063f8	ok	cs_6_0	ok	ok	all covered
+b9c29308	462cddf0	2	0xc00	rewrite:7	reflected	reflected	3636fec9	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	-	-	-	-
+ba91aaa8	0369d624	1	0x0	rewrite:4	reflected	reflected	ce90aad6	backward permute with scalar branches needs verified convergent control flow	-	-	-	-
+baf7a7d4	030389c6	2	0x0	rewrite:18	reflected	reflected	099b21e2	wave reduction : invalid integer sum lane read	-	-	-	-
+bb0321ac	c4e00378	2	0x400	append:11	reflected	reflected	5679edfb	lane op : non-constant lane operand Some(Sgpr(N))	-	-	-	-
+bd054a51	c4e00378	2	0x400	append:9	reflected	reflected	db1d9e21	lane op : non-constant lane operand Some(Sgpr(N))	-	-	-	-
+be09f61c	462cddf0	2	0xc00	unsupported(no-bindings,-nothing-to-append)	last	captured	8b4d1c32	raw BVH node intersection requires traversal translation	-	-	-	-
+bef83aae	02445d86	1	0x0	rewrite:4	reflected	reflected	a5e1b2bf	wave reduction : unsupported reduction op v_add_f16	-	-	-	-
+bfcf21f3	7e366593	3	0xc00	rewrite:12	reflected	reflected	ec365e11	ok	cs_6_0	ok	ok	all covered
+c051d27c	c4e00378	2	0x400	append:10	reflected	reflected	fd0e2158	lane op : non-constant lane operand Some(Sgpr(N))	-	-	-	-
+c05c6ba9	7bcf49ce	1	0x400	rewrite:3	reflected	reflected	193367f1	compute swizzle inside a loop	-	-	-	-
+c2ba1d88	c4e00378	2	0x400	append:9	reflected	reflected	0c2257bb	lane op : non-constant lane operand Some(Sgpr(N))	-	-	-	-
+c42f2303	c4e00378	2	0x400	append:9	reflected	reflected	edc8ad9f	lane op : non-constant lane operand Some(Sgpr(N))	-	-	-	-
+c517fce0	c78d33d8	3	0x400	rewrite:9	reflected	reflected	348d005f	ok	cs_6_0	ok	ok	all covered
+c5afcb5c	462cddf0	2	0xc00	rewrite:61	reflected	reflected	b2a97156	wave reduction may execute in divergent control flow	-	-	-	-
+c64b73af	2cde983e	2	0xc00	rewrite:87	reflected	reflected	97317f71	wave reduction may execute in divergent control flow	-	-	-	-
+c7caa489	462cddf0	2	0xc00	append:5	reflected	reflected	21d5496e	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	-	-	-	-
+ca5d0085	7e366593	3	0xc00	rewrite:13	reflected	reflected	f78e94e9	ok	cs_6_6	ok	ok	all covered
+cd96694c	7e366593	3	0xc00	rewrite:12	reflected	reflected	cdeebd47	ok	cs_6_0	ok	ok	all covered
+cf85ed51	7e366593	3	0xc00	rewrite:14	reflected	reflected	d9d9b2de	ok	cs_6_6	ok	ok	all covered
+d00036de	c78d33d8	3	0x400	rewrite:8	reflected	reflected	b83a93ef	ok	cs_6_0	ok	ok	all covered
+d0b3624c	030389c6	2	0x0	rewrite:4	reflected	reflected	d2b590a5	wave operation requires complete N-lane compute waves	-	-	-	-
+d11e7656	462cddf0	2	0xc00	unsupported(no-bindings,-nothing-to-append)	last	captured	7c1051a3	raw BVH node intersection requires traversal translation	-	-	-	-
+d29efb84	c4e00378	2	0x400	append:11	reflected	reflected	be05613e	lane op : non-constant lane operand Some(Sgpr(N))	-	-	-	-
+d52f30e0	7e366593	3	0xc00	rewrite:14	reflected	reflected	e269b5ff	ok	cs_6_6	ok	ok	all covered
+d5b6a2f4	030389c6	2	0x0	rewrite:4	reflected	reflected	bac00e2e	wave reduction : unrecognized DPP reduction shuffle	-	-	-	-
+d709bbbb	2cde983e	2	0xc00	rewrite:83	reflected	reflected	6f758a64	ok	cs_6_6	ok	ok	all covered
+d7965490	c4e00378	2	0x400	rewrite:33	reflected	reflected	d8dc4795	backward permute with scalar branches needs verified convergent control flow	-	-	-	-
+d7e11860	c78d33d8	3	0x400	rewrite:8	reflected	reflected	54f3dd5a	ok	cs_6_0	ok	ok	all covered
+da38744d	7e366593	3	0xc00	rewrite:12	reflected	reflected	78426d90	ok	cs_6_0	ok	ok	all covered
+db4ce27b	7e366593	3	0xc00	rewrite:8	reflected	reflected	b21f8797	ok	cs_6_0	ok	ok	all covered
+dbe233b5	c4e00378	2	0x400	append:9	reflected	reflected	80cfc54d	lane op : non-constant lane operand Some(Sgpr(N))	-	-	-	-
+df39fe6e	44022573	2	0xc00	append:3	reflected	reflected	ddf9b809	unverified EXEC election : count of a non-SGPR mask	-	-	-	-
+e2c3eaad	2cde983e	2	0xc00	rewrite:83	reflected	reflected	c6d835fe	wave reduction may execute in divergent control flow	-	-	-	-
+e2d03525	c4e00378	2	0x400	append:9	reflected	reflected	2f93d833	lane op : non-constant lane operand Some(Sgpr(N))	-	-	-	-
+e4b1b26f	2cde983e	2	0xc00	rewrite:82	reflected	reflected	d34b6816	wave reduction may execute in divergent control flow	-	-	-	-
+e5e0cff7	c4e00378	2	0x400	append:18	reflected	reflected	dc144bf2	raw BVH node intersection requires traversal translation	-	-	-	-
+e5fbc632	030389c6	2	0x0	rewrite:25	reflected	reflected	3021226f	translated HLSL of N MiB exceeds the N MiB compiler budget	-	-	-	-
+e64e1a81	462cddf0	2	0xc00	rewrite:22	reflected	reflected	2f24fe6f	mimg : s12 not an image descriptor (None)	-	-	-	-
+e74749b5	c78d33d8	3	0x400	rewrite:11	reflected	reflected	376e2148	ok	cs_6_0	ok	ok	all covered
+e75aa843	2cde983e	2	0xc00	rewrite:87	reflected	reflected	762b6fd1	wave reduction may execute in divergent control flow	-	-	-	-
+e766ed86	2cde983e	2	0xc00	unsupported(no-bindings,-nothing-to-append)	last	captured	ceb42db3	raw BVH node intersection requires traversal translation	-	-	-	-
+ea09bfef	030389c6	2	0x0	rewrite:10	reflected	reflected	c5100fb7	wave reduction may execute in divergent control flow	-	-	-	-
+eb54f26a	7e366593	3	0xc00	rewrite:17	reflected	reflected	d1ba024b	ok	cs_6_0	ok	ok	s66,space0
+ed8f3a88	931cdd4d	2	0x0	rewrite:4	reflected	reflected	670a1ea0	ok	cs_6_0	ok	ok	all covered
+ee98fc5f	2cde983e	2	0xc00	unsupported(no-bindings,-nothing-to-append)	last	captured	40513e4a	raw BVH node intersection requires traversal translation	-	-	-	-
+efb743dd	7e366593	3	0xc00	rewrite:9	reflected	reflected	ea21457d	ok	cs_6_0	ok	ok	all covered
+f038ad55	7e366593	3	0xc00	rewrite:12	reflected	reflected	ef941f36	ok	cs_6_0	ok	ok	all covered
+f0d5d801	2cde983e	2	0xc00	original:82	original	captured	760c056a	raw buffer IDXEN needs the console descriptor stride	-	-	-	-
+f1197d90	c4e00378	2	0x400	rewrite:30	reflected	reflected	6f8cac1e	compute swizzle inside a loop	-	-	-	-
+f3985403	c4e00378	2	0x400	append:11	reflected	reflected	0408c7da	lane op : non-constant lane operand Some(Sgpr(N))	-	-	-	-
+f5d8bc6c	7e366593	3	0xc00	rewrite:17	reflected	reflected	d099b38d	ok	cs_6_0	ok	ok	s66,space0
+f5f2b800	b003f9e8	2	0x0	rewrite:10	reflected	reflected	36e78db7	wave reduction : unrecognized DPP reduction shuffle	-	-	-	-
+f958d90a	030389c6	2	0x0	unsupported(no-bindings,-nothing-to-append)	last	captured	76064ce1	wave reduction : invalid integer sum lane read	-	-	-	-
+f9c81a48	c4e00378	2	0x400	rewrite:53	reflected	reflected	417a35ff	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	-	-	-	-
+facdd2b4	462cddf0	2	0xc00	append:5	reflected	reflected	194ae1db	v_readlane_b32 : inside non-uniform loop (0x_..=0x_); barrier/wave read cannot be proven convergent	-	-	-	-
+fb8e97e0	2cde983e	2	0xc00	unsupported(no-bindings,-nothing-to-append)	last	captured	233d187f	raw BVH node intersection requires traversal translation	-	-	-	-
+fe0caf5e	030389c6	2	0x0	unsupported(no-bindings,-nothing-to-append)	last	captured	79328785	lane op : non-constant lane operand Some(Sgpr(N))	-	-	-	-
+fe0ce5ea	c4e00378	2	0x400	append:9	reflected	reflected	ca6961b7	lane op : non-constant lane operand Some(Sgpr(N))	-	-	-	-
