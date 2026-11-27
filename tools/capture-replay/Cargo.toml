@@ -1,0 +1,17 @@
+[package]
+name = "tuxbox-capture-replay"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.95"
+publish = false
+license = "Apache-2.0"
+description = "Rebuild the roots the D3D12 provider binds a captured compute pipeline with"
+
+[[bin]]
+name = "capture-replay"
+path = "src/main.rs"
+
+[dependencies]
+tuxbox-dxbc = { path = "../../runtime/dxbc", features = ["native-bindings"] }
+
+[workspace]
